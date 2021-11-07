@@ -1,0 +1,210 @@
+@charset "utf-8";
+/* *******************************************************
+ * filename : GC_LS_main.css
+ * description : GC_LS메인 css 버전2
+ * date : 2020-10-24
+******************************************************** */
+
+.business-main {width: 100%;}
+.business-main .main-visual {
+    position: fixed;
+    top:0; right:0; bottom:0; left:0;
+    z-index: 0;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.business-main .main-visual .scroll-down {position: absolute; bottom:100px;}
+.business-main .main-visual .scroll-down p {color: #fff; font-size: 13px; letter-spacing: 0.1em;}
+.business-main .main-visual .scroll-down p::before {content: ''; display: block; width: 2px; height: 89px; background: rgba(255, 255, 255, 0.3); position: absolute; left: 50%; top: 30px; margin-left: -1px;}
+.business-main .main-visual .scroll-down p::after {content: ''; display: block; width: 2px; height: 22px; background:#fff; position: absolute; left: 50%; top: 30px; margin-left: -1px;}
+.product-search {width: 100%; background:#d6d6d6; margin-top: 100vh; position: relative;}
+.product-search.sub {margin-top: 0;}
+.product-search .inner {width: 920px; margin: 0 auto; padding: 50px 0;}
+.product-search .input-area {display: flex;}
+.product-search .input-area .label {color:#000; font-weight: 600; font-size: 30px; margin-right: 37px;}
+.product-search .input-wrap {position: relative; padding-right: 38px; flex: auto;}
+.product-search .input-wrap input {width: 100%; background: #d6d6d6; border:0; border-bottom: 2px solid #fff; font-size: 30px; font-weight: 300; padding-bottom: 10px;}
+.product-search .input-wrap input::placeholder {color:#afafaf;}
+.product-search .input-wrap .btn {
+    display: block;
+    width: 38px;
+    height: 57px;
+    background-image: url('../images/common/icon-search01.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 30px;
+    position: absolute;
+    top:0; right: 0;
+}
+.product-search .input-wrap .btn span {font-size: 0;}
+.product-search .key-area {display: flex; justify-content: space-between; margin-top: 25px;}
+.product-search .key-area ul {display: flex;}
+.product-search .key-area a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 2px;
+    font-size: 18px;
+    text-align: center;
+    color:#333;
+    border: 2px solid #fff;
+    background:#fff;
+}
+.product-search .key-area a:hover {border: 2px solid #222; color:#222;}
+.product-search .key-area .alphabet a {width: 42px; height: 42px;}
+.product-search .key-area .btn a {width: 140px; height: 42px;}
+.business-main .tab-area a {font-size: 25px;}
+.business-main .tab-area a.on {color:#4b6c03; font-weight: 300;}
+.business-main .tab-area a.on::after {background:#4b6c03;}
+.business-main .brand {width: 1200px; margin: 0 auto;}
+.business-main .brand .ctn-box .bg-img {position: relative;}
+.business-main .brand .ctn-box .bg-img p {color:#fff; font-size: 55px; font-weight: 600; position: absolute; left: 70px; top: 30px; text-shadow:2px 2px 6px gray;}
+.business-main .brand .ctn-box .bg-img p span {display: block;}
+.business-main .brand .ctn-box .bg-img img {display: block; max-width: 100%;}
+.business-main .brand .ctn-box .txt-box {width: 100%; padding: 45px 80px 73px; background: #f5f4f4;}
+.business-main .brand .ctn-box .txt-box .desc {font-weight: 400; line-height: 1.5em; margin-bottom: 20px;}
+.business-main .brand .ctn-box .txt-box ul {display: flex; align-items: flex-start; flex-wrap: wrap;}
+.business-main .brand .ctn-box .txt-box ul li {width: 50%;}
+.business-main .brand .ctn-box .txt-box ul li:nth-child(2n-1) {padding-right: 66px;}
+.business-main .brand .ctn-box .txt-box ul li:nth-child(2n) {padding-left: 66px;}
+.business-main .brand .ctn-box .txt-box a {display: block; padding: 11px 50px 11px 0; font-size: 25px; color:#222; font-weight: 600; position: relative;}
+.business-main .brand .ctn-box .txt-box a i {
+    display: block;
+    width: 45px;
+    height: 45px;
+    border: 1px solid #b4b4b4;
+    background-color:#f5f4f4;
+    background-image:url('../images/icon/icon-more-g.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 15px;
+    transition: all 0.2s;
+    position: absolute;
+    right:0; top:11px;
+}
+
+/* gc */
+.gc-main .main-visual {background: url('../images/bg/GCmain-bg.jpg');}
+.gc-main .main-visual .txt-box {text-align: center; margin-top: 99px;}
+.gc-main .main-visual .title {font-size: 65px; font-weight: 600; color:#93bc3b; line-height: 1em;}
+.gc-main .main-visual .txt01 {color:#fff; font-size: 35px; margin: 20px 0 50px;}
+.gc-main .main-visual .txt02 {color:#fff; font-size: 18px; margin-top: 35px;}
+.gc-main .main-visual .txt02 span {display: block;}
+.gc-main .brand .ctn-box .txt-box ul li a:hover {color:#93bc3b;}
+.gc-main .brand .ctn-box .txt-box ul li a:hover i {
+    background-color:#93bc3b;
+    background-image: url('../images/icon/icon-more-w.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: 1px solid #93bc3b;
+}
+
+
+/* LS */
+.ls-main .product-search .key-area {justify-content: flex-start; padding-left: 140px;}
+.ls-main .main-visual {background-image: url('../images/ls/bg/main.jpg');}
+.ls-main .main-visual .txt-box {text-align: center; width: 1200px; margin-top: -277px; color:#fff;margin-top: 99px;}
+.ls-main .main-visual .txt-box img {max-width: 100%;margin-top:25px; margin-bottom:25px;}
+.ls-main .main-visual .txt-box span {display: block;}
+.ls-main .main-visual .txt-box .title {color:#ef8009; font-size: 65px; font-weight: 900; letter-spacing: -0.02em; line-height: 0.7em;}
+.ls-main .main-visual .txt-box .txt01 {font-size: 35px; font-weight: 300; margin: 30px 0 20px; color:#222;}
+.ls-main .main-visual .txt-box .txt02 {font-weight: 300; line-height: 1.9em; color:#222;}
+.ls-main .brand > .desc {font-size: 20px; margin-bottom: 50px; text-align: center; padding: 0 220px; font-weight: 400;}
+.ls-main .brand .ctn-box .txt-box .title {font-size: 50px; width: 50%;}
+.ls-main .brand .ctn-box .txt-box .title i {right: 66px; top: 27px; background-image: url('../images/icon/icon-more-b.png'); border: 1px solid #222;}
+.ls-main .brand .ctn-box .txt-box a:hover {color: #ef8009;}
+.ls-main .brand .ctn-box .txt-box a:hover i {
+    background-color:#ef8009;
+    background-image: url('../images/icon/icon-more-w.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: 1px solid #ef8009;
+}
+
+
+
+@media(max-width: 1200px) {
+    .product-search {margin-top: 84vh;}
+    .product-search .inner {width: 768px;}
+    .product-search .input-area .label {font-size: 25px;}
+    .product-search .input-wrap input {font-size: 25px;}
+    .product-search .input-wrap .btn {background-size: 25px;}
+    .product-search .key-area {display: none;}
+    .business-main .tab-area a {font-size: 18px;}
+    .business-main .main-visual .scroll-down {bottom: 55px;}
+    .business-main .main-visual .scroll-down p {font-size: 11px;}
+    .business-main .main-visual .scroll-down p::before,
+    .business-main .main-visual .scroll-down p::after {top: 23px;}
+    .business-main .brand {width: 100%;}
+    .business-main .brand .ctn-box .bg-img p {font-size: 40px;}
+    .business-main .brand .ctn-box .txt-box a {font-size: 25px;}
+    .business-main .brand .ctn-box .txt-box a i {width: 35px; height: 35px;}
+
+    /* gc */
+    .gc-main .main-visual .title {font-size: 45px;}
+    .gc-main .main-visual .txt01 {font-size: 25px; margin: 20px 0 30px;}
+    .gc-main .main-visual img {width: 210px;}
+    .gc-main .main-visual .txt02 {font-size: 16px;}
+
+    /* ls */
+    .ls-main .main-visual {background-image: url('../images/ls/bg/main-m.jpg');}
+    .ls-main .main-visual .txt-box {width: 100%; padding: 0 40px;}
+    .ls-main .main-visual .txt-box .title {font-size: 50px;}
+    .ls-main .main-visual .txt-box .txt01 {font-size: 28px;}
+    .ls-main .main-visual .txt-box .txt02 {font-size: 16px;}
+    .ls-main .main-visual img {width: 210px;}
+    .ls-main .brand > .desc {padding: 0 50px;}
+    .ls-main .brand .ctn-box .txt-box .title {width: 100%; font-size: 35px;}
+    .ls-main .brand .ctn-box .txt-box .title i {right: 0; top: 19px;}
+
+}
+
+@media(max-width: 768px) {
+    .business-main .main-visual {min-height: 82vh; position: static; height: auto; padding: 0 0 30px; margin-top: 50px;}
+    .product-search {margin-top: 0;}
+    .product-search .inner {width: 100%; padding: 30px 20px;}
+    .product-search .input-area {display: block;}
+    .product-search .input-area .label {padding-right: 0; font-size: 15px;}
+    .product-search .input-wrap input {font-size: 18px;}
+    .product-search .input-wrap .btn {height: 39px; background-size: 20px;}
+    .business-main .tab-area a {font-size: 14px;}
+    .business-main .brand .ctn-box .bg-img p {font-size: 20px; top: 10px; left: 20px;}
+    .business-main .brand .ctn-box .txt-box {padding: 30px 20px;}
+    .business-main .brand .ctn-box .txt-box ul {display: block;}
+    .business-main .brand .ctn-box .txt-box ul li {width: 100%;}
+    .business-main .brand .ctn-box .txt-box ul li:nth-child(2n-1) {padding-right: 0;}
+    .business-main .brand .ctn-box .txt-box ul li:nth-child(2n) {padding-left: 0;}
+    .business-main .brand .ctn-box .txt-box a {font-size: 17px; padding: 5px 40px 5px 0;}
+    .business-main .brand .ctn-box .txt-box a i {width: 30px; height: 30px; top: 3px;}
+
+
+    /* gc */
+    .gc-main .main-visual {background: url('../images/bg/GCmain-bg-m.jpg') no-repeat center center; background-size: cover;}
+    .gc-main .main-visual .txt-box {margin-top: 45px;}
+    .gc-main .main-visual .title {font-size: 30px;}
+    .gc-main .main-visual .txt01 {font-size: 20px; margin: 10px 0 15px;}
+    .gc-main .main-visual .txt02 {margin-top: 20px; font-size: 13px; padding: 0 50px; word-break: keep-all;}
+    .gc-main .main-visual .txt02 span {display: inline;}
+
+
+    /* ls */
+    .ls-main .main-visual {background-image: url('../images/ls/bg/main-m.jpg');}
+    .ls-main .main-visual .txt-box {margin-top: 45px;}
+    .ls-main .main-visual .txt-box span {display: inline;}
+    .ls-main .main-visual .txt-box .title {font-size: 30px;}
+    .ls-main .main-visual .txt-box .txt01 {font-size: 20px; margin: 10px 0;}
+    .ls-main .main-visual .txt-box .txt02 {font-size: 13px; word-break: keep-all;}
+    .ls-main .brand > .desc {font-size: 13px; padding: 20px; margin-bottom: 15px;}
+    .ls-main .brand .ctn-box .txt-box .title {font-size: 25px;}
+    .ls-main .brand .ctn-box .txt-box .title i {top: 7px;}
+
+
+
+}
+
+/*  */

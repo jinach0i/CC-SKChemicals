@@ -1,0 +1,252 @@
+﻿@charset "utf-8";
+/* *******************************************************
+ * filename : GC_Industry.css
+ * description : GC_Industry css
+ * date : 2020-07-24
+******************************************************** */
+
+.gc-industry {width: 100%; height: 100vh; position: relative;}
+.gc-industry .ctn {position: absolute; top:0; right: 0; bottom:0; left: 0;}
+.gc-industry .ctn .list {background-repeat: no-repeat; background-position: center center; background-size: cover; display: flex; align-items: center; justify-content: center;}
+.gc-industry .ctn .COVID {background-image: url('../images/gc/bg/industry-bg01.jpg');}
+.gc-industry .ctn .sustainable {background-image: url('../images/gc/bg/industry-bg02.jpg');}
+.gc-industry .ctn .cosmetic {background-image: url('../images/gc/bg/industry-bg03.jpg');}
+.gc-industry .ctn .auto {background-image: url('../images/gc/bg/industry-bg04.jpg');}
+.gc-industry .ctn .consumer {background-image: url('../images/gc/bg/industry-bg05.jpg');}
+.gc-industry .ctn .electronics {background-image: url('../images/gc/bg/industry-bg06.jpg');}
+.gc-industry .ctn .industrial {background-image: url('../images/gc/bg/industry-bg07.jpg');}
+.gc-industry .ctn .packaging {background-image: url('../images/gc/bg/industry-bg08.jpg');}
+.gc-industry .ctn .slick-list,
+.gc-industry .ctn .slick-track {width: 100%; height: 100%;}
+.gc-industry .ctn .list .title {text-align: center; color:#222; font-weight: 600; font-size: 60px;}
+.gc-industry .ctn .list ul {display: flex; align-items: center; justify-content: center; margin-top: 30px;}
+.gc-industry .ctn .list ul li {margin: 5px;}
+.gc-industry .ctn .list ul li a {
+    display: flex;
+    width: 180px;
+    height: 130px;
+    border: 1px solid #222;
+    background-color: rgba(255, 255, 255, 0.9);
+    background-repeat: no-repeat;
+    background-position: center 17px;
+    background-size: 50px;
+    text-align: center;
+    padding: 68px 15px 15px;
+    transition: none;
+    justify-content: center;
+    align-items: center;
+}
+.gc-industry .ctn .list ul li a:hover {
+    background: #93bc3a;
+    background-repeat: no-repeat;
+    background-position: center 17px;
+    background-size: 50px;
+}
+.gc-industry .ctn .list ul li a p {color:#222; font-weight: 500; line-height: 1.2em; letter-spacing: -0.02em;}
+.gc-industry .ctn .list ul li a:hover p {color:#fff;}
+.gc-industry .ctn .list ul li a p span {display: block; font-weight: 300; font-size: 14px; line-height: 1em;}
+.gc-industry .ctn .list ul li a img {width: 28px; display: block; margin: 0 auto 15px;}
+.gc-industry .thum-wrap {position: absolute; left:0; bottom:0; right:0; width: 100%; display: flex;}
+.gc-industry .thum-wrap .list {height: 70px; min-width: 239px; transition: all 0.2s;}
+.gc-industry .thum-wrap .list a {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:#fff;
+    text-align: center;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+}
+.gc-industry .thum-wrap .list a p {letter-spacing: -0.02em;}
+.gc-industry .thum-wrap .slick-track {display: flex; align-items: flex-end;}
+.gc-industry .thum-wrap .list.slick-center {height: 100px;}
+.gc-industry .thum-wrap .slick-list {padding: 0 !important;}
+.gc-industry .thum-wrap .list.COVID a {background-image: url('../images/gc/img/industry-thum01.jpg');}
+.gc-industry .thum-wrap .list.sustainable a {background-image: url('../images/gc/img/industry-thum02.jpg');}
+.gc-industry .thum-wrap .list.cosmetic a {background-image: url('../images/gc/img/industry-thum03.jpg');}
+.gc-industry .thum-wrap .list.auto a {background-image: url('../images/gc/img/industry-thum04.jpg');}
+.gc-industry .thum-wrap .list.consumer a {background-image: url('../images/gc/img/industry-thum05.jpg');}
+.gc-industry .thum-wrap .list.electronics a {background-image: url('../images/gc/img/industry-thum06.jpg');}
+.gc-industry .thum-wrap .list.industrial a {background-image: url('../images/gc/img/industry-thum07.jpg');}
+.gc-industry .thum-wrap .list.packaging a {background-image: url('../images/gc/img/industry-thum08.jpg');}
+.gc-industry .thum-wrap .list.COVID.slick-center a {background-image: url('../images/gc/img/industry-thum01over.jpg');}
+.gc-industry .thum-wrap .list.sustainable.slick-center a {background-image: url('../images/gc/img/industry-thum02over.jpg');}
+.gc-industry .thum-wrap .list.cosmetic.slick-center a {background-image: url('../images/gc/img/industry-thum03over.jpg');}
+.gc-industry .thum-wrap .list.auto.slick-center a {background-image: url('../images/gc/img/industry-thum04over.jpg');}
+.gc-industry .thum-wrap .list.consumer.slick-center a {background-image: url('../images/gc/img/industry-thum05over.jpg');}
+.gc-industry .thum-wrap .list.electronics.slick-center a {background-image: url('../images/gc/img/industry-thum06over.jpg');}
+.gc-industry .thum-wrap .list.industrial.slick-center a {background-image: url('../images/gc/img/industry-thum07over.jpg');}
+.gc-industry .thum-wrap .list.packaging.slick-center a {background-image: url('../images/gc/img/industry-thum08over.jpg');}
+.gc-industry .thum-wrap .list.slick-center a {color:#222; font-weight: 400;}
+.gc-industry .slide-btn a {
+    position: absolute;
+    display: block;
+    width: 55px;
+    height: 55px;
+    border: 1px solid #222;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 22px;
+    top: 50%;
+    margin-top: -27.5px;
+    z-index: 1;
+}
+.gc-industry .slide-btn a:hover {background-color: rgba(255, 255, 255, 0.5)}
+.gc-industry .slide-btn a.prev {background-image: url('../images/common/icon-arrow-l-g03.png'); left: 55px;}
+.gc-industry .slide-btn a.next {background-image: url('../images/common/icon-arrow-r-g03.png'); right: 55px;}
+.gc-industry .slide-btn a span {font-size: 0;}
+
+/* 버튼-아이콘 */
+.gc-industry .ctn .COVID .btn01 a {background-image:url('../images/gc/icon/industry-icon01.png');}
+.gc-industry .ctn .sustainable .btn01 a {background-image:url('../images/gc/icon/industry-icon02.png');}
+.gc-industry .ctn .sustainable .btn02 a {background-image:url('../images/gc/icon/industry-icon03.png');}
+.gc-industry .ctn .cosmetic .btn01 a {background-image:url('../images/gc/icon/industry-icon04.png');}
+.gc-industry .ctn .auto .btn01 a {background-image:url('../images/gc/icon/industry-icon05.png');}
+.gc-industry .ctn .auto .btn02 a {background-image:url('../images/gc/icon/industry-icon06.png');}
+.gc-industry .ctn .consumer .btn01 a {background-image:url('../images/gc/icon/industry-icon07.png');}
+.gc-industry .ctn .consumer .btn02 a {background-image:url('../images/gc/icon/industry-icon08.png');}
+.gc-industry .ctn .electronics .btn01 a {background-image:url('../images/gc/icon/industry-icon09.png');}
+.gc-industry .ctn .electronics .btn02 a {background-image:url('../images/gc/icon/industry-icon10.png');}
+.gc-industry .ctn .industrial .btn01 a {background-image:url('../images/gc/icon/industry-icon11.png');}
+.gc-industry .ctn .industrial .btn02 a {background-image:url('../images/gc/icon/industry-icon12.png');}
+.gc-industry .ctn .industrial .btn03 a {background-image:url('../images/gc/icon/industry-icon13.png');}
+.gc-industry .ctn .industrial .btn04 a {background-image:url('../images/gc/icon/industry-icon14.png');}
+.gc-industry .ctn .industrial .btn05 a {background-image:url('../images/gc/icon/industry-icon15.png');}
+.gc-industry .ctn .packaging .btn01 a {background-image:url('../images/gc/icon/industry-icon16.png');}
+.gc-industry .ctn .packaging .btn02 a {background-image:url('../images/gc/icon/industry-icon17.png');}
+.gc-industry .ctn .packaging .btn03 a {background-image:url('../images/gc/icon/industry-icon18.png');}
+.gc-industry .ctn .packaging .btn04 a {background-image:url('../images/gc/icon/industry-icon19.png');}
+.gc-industry .ctn .packaging .btn05 a {background-image:url('../images/gc/icon/industry-icon20.png');}
+.gc-industry .ctn .packaging .btn06 a {background-image:url('../images/gc/icon/industry-icon21.png');}
+
+.gc-industry .ctn .COVID .btn01 a:hover {background-image:url('../images/gc/icon/industry-icon01over.png');}
+.gc-industry .ctn .sustainable .btn01 a:hover {background-image:url('../images/gc/icon/industry-icon02over.png');}
+.gc-industry .ctn .sustainable .btn02 a:hover {background-image:url('../images/gc/icon/industry-icon03over.png');}
+.gc-industry .ctn .cosmetic .btn01 a:hover {background-image:url('../images/gc/icon/industry-icon04over.png');}
+.gc-industry .ctn .auto .btn01 a:hover {background-image:url('../images/gc/icon/industry-icon05over.png');}
+.gc-industry .ctn .auto .btn02 a:hover {background-image:url('../images/gc/icon/industry-icon06over.png');}
+.gc-industry .ctn .consumer .btn01 a:hover {background-image:url('../images/gc/icon/industry-icon07over.png');}
+.gc-industry .ctn .consumer .btn02 a:hover {background-image:url('../images/gc/icon/industry-icon08over.png');}
+.gc-industry .ctn .electronics .btn01 a:hover {background-image:url('../images/gc/icon/industry-icon09over.png');}
+.gc-industry .ctn .electronics .btn02 a:hover {background-image:url('../images/gc/icon/industry-icon10over.png');}
+.gc-industry .ctn .industrial .btn01 a:hover {background-image:url('../images/gc/icon/industry-icon11over.png');}
+.gc-industry .ctn .industrial .btn02 a:hover {background-image:url('../images/gc/icon/industry-icon12over.png');}
+.gc-industry .ctn .industrial .btn03 a:hover {background-image:url('../images/gc/icon/industry-icon13over.png');}
+.gc-industry .ctn .industrial .btn04 a:hover {background-image:url('../images/gc/icon/industry-icon14over.png');}
+.gc-industry .ctn .industrial .btn05 a:hover {background-image:url('../images/gc/icon/industry-icon15over.png');}
+.gc-industry .ctn .packaging .btn01 a:hover {background-image:url('../images/gc/icon/industry-icon16over.png');}
+.gc-industry .ctn .packaging .btn02 a:hover {background-image:url('../images/gc/icon/industry-icon17over.png');}
+.gc-industry .ctn .packaging .btn03 a:hover {background-image:url('../images/gc/icon/industry-icon18over.png');}
+.gc-industry .ctn .packaging .btn04 a:hover {background-image:url('../images/gc/icon/industry-icon19over.png');}
+.gc-industry .ctn .packaging .btn05 a:hover {background-image:url('../images/gc/icon/industry-icon20over.png');}
+.gc-industry .ctn .packaging .btn06 a:hover {background-image:url('../images/gc/icon/industry-icon21over.png');}
+
+/* 팝업 */
+.layer-popup {background:#fff; position: fixed; left: 50%; top: 50%; transform: translatey(-50%); padding: 40px; width: 730px; margin-left: -365px; display: none; z-index: 101;}
+.layer-popup .close {position: absolute; top: 17px; right: 17px; display: block; width: 17px; height: 17px; background: url('../images/common/close01.png') no-repeat center center; background-size: 100%;}
+.layer-popup .close span {font-size: 0;}
+.layer-popup .pop-nav {display: flex; flex-wrap: wrap;}
+.layer-popup .pop-nav li {font-size: 14px; color:#000;}
+.layer-popup .pop-nav li + li {margin-left: 5px;}
+.layer-popup .pop-nav li + li::before {content: '>'; margin-right: 5px;}
+.layer-popup .ctn-area .desc {color:#222; font-size: 20px; font-weight: 500;line-height: 1.3em; padding: 30px 0; word-break: keep-all;}
+.layer-popup .ctn-area .desc .br {display: block;}
+.layer-popup .ctn-area .ctn-box {display: flex; justify-content: space-between; padding-top: 30px; padding-bottom: 30px; width: 100%; border-top: 2px solid #000;}
+.layer-popup .ctn-area .ctn-box + .ctn-box {border-top: 1px solid #d6d6d6;}
+.layer-popup .ctn-area .ctn-box:last-child {padding-bottom: 0;}
+.layer-popup .ctn-area .ctn-box .txt-box {padding-right: 50px;}
+.layer-popup .ctn-area .ctn-box .txt-box > li {position: relative; padding-left: 10px;}
+.layer-popup .ctn-area .ctn-box .txt-box > li + li {margin-top: 25px;}
+.layer-popup .ctn-area .ctn-box .txt-box > li::before {content: ''; display: block; position: absolute; width: 2px; height: 2px; background: #686868; top: 12px; left: 0px;}
+.layer-popup .ctn-area .ctn-box .depth02 {margin-top: 15px;}
+.layer-popup .ctn-area .ctn-box .depth02 li {padding-left: 10px; position: relative; font-size: 17px; line-height: 1.4em;}
+.layer-popup .ctn-area .ctn-box .depth02 li::before {content: '-'; position: absolute; top: 2px; left: 0;}
+.layer-popup .ctn-area .ctn-box .img-box {display: flex; margin-top: 20px; flex-wrap: wrap;}
+.layer-popup .ctn-area .ctn-box .img-box li + li {margin-left: 7px;}
+.layer-popup .ctn-area .ctn-box .btn-area a {
+    width: 153px;
+    display: block;
+    font-size: 17px;
+    color:#222;
+    font-weight: 500;
+    text-align: left;
+    padding: 7px 30px 7px 10px;
+    background-color:#fff;
+    border: 1px solid #222;
+    background-position: right 10px center;
+    background-repeat: no-repeat;
+    background-image: url('../images/common/icon-arrow-r-g.png');
+    background-size: 7px;
+    word-break: keep-all;
+    line-height: 1.2em;
+}
+.layer-popup .ctn-area .ctn-box .btn-area a:hover {background-color: #93bc3a; color:#fff; background-image: url('../images/common/icon-arrow-r-w.png');}
+.layer-popup .ctn-area .ctn-box .btn-area a + a {margin-top: 9px;}
+.layer-popup .ctn-area .ctn-box .btn-area a .br {display: block;}
+
+/* covid새창팝업 */
+.covid-popup {padding: 110px;}
+.covid-popup .title {letter-spacing: -0.02em; color:#222; font-size: 40px; font-weight: 600; margin-bottom: 35px;}
+.covid-popup .txt {letter-spacing: -0.02em;}
+.covid-popup .tb-ctn {padding: 0; margin: 50px 0;}
+.covid-popup .tb-ctn table thead th {color: #e0002a;}
+.covid-popup .tb-ctn table tbody th {border-right: 1px solid #d6d6d6; background:#fff; text-align: left;}
+.covid-popup .tb-ctn table tbody .total th {background:#d6d6d6; border-right: 1px solid #fff; border-bottom: 0;}
+.covid-popup .tb-ctn .desc {font-size: 15px;}
+
+@media(max-width: 1200px) {
+    .gc-industry {height: 83vh;}
+    .gc-industry .ctn .list .title {font-size: 50px;}
+    .gc-industry .ctn .list .inner {margin-top: -50px;}
+    .gc-industry .ctn .list ul {flex-wrap: wrap;}
+
+    /* covid새창팝업 */
+    .covid-popup {padding: 80px;}
+    .covid-popup .title {font-size: 30px;}
+}
+
+@media(max-width: 768px) {
+    .gc-industry {height: 87vh;}
+    .gc-industry .ctn .list .title {font-size: 30px; font-size: 1.2em; padding: 0 20px;}
+    .gc-industry .ctn .list ul li a {
+        width: 117px;
+        height: 105px;
+        background-size: 36px;
+        background-position: center 14px;
+        font-size: 14px;
+        padding: 50px 10px 10px;
+    }
+    .gc-industry .slide-btn a {width: 45px; height: 45px; margin-top: -165px;}
+    .gc-industry .slide-btn a.prev {left: 20px;}
+    .gc-industry .slide-btn a.next {right: 20px;}
+
+    /* 팝업 */
+    .layer-popup {width: auto; top: 10px; left: 10px; right: 10px; bottom: 10px; transform: none; margin-left: 0;}
+    .layer-popup .ctn-area {overflow: auto; position: absolute; top: 70px; left: 40px; right: 40px; bottom: 40px;}
+    .layer-popup .ctn-area .desc {font-size: 16px;}
+    .layer-popup .ctn-area .desc .br {display: inline;}
+    .layer-popup .ctn-area .ctn-box {display: block;}
+    .layer-popup .ctn-area .ctn-box .txt-box {padding-right: 0;}
+    .layer-popup .ctn-area .ctn-box .txt-box > li {font-size: 14px;}
+    .layer-popup .ctn-area .ctn-box .txt-box > li + li {margin-top: 15px;}
+    .layer-popup .ctn-area .ctn-box .depth02 {margin-top: 10px;}
+    .layer-popup .ctn-area .ctn-box .depth02 li {font-size: 13px;}
+    .layer-popup .ctn-area .ctn-box .img-box li {margin: 3px;}
+    .layer-popup .ctn-area .ctn-box .img-box li + li {margin-left: 3px;}
+    .layer-popup .ctn-area .ctn-box .btn-area {margin-top: 30px;}
+    .layer-popup .ctn-area .ctn-box .btn-area a {font-size: 15px; width: 100%;}
+    .layer-popup .ctn-area .ctn-box .btn-area a .br {display: inline;}
+
+    /* covid새창팝업 */
+    .covid-popup {padding: 40px;}
+    .covid-popup .title {font-size: 20px; margin-bottom: 20px;}
+    .covid-popup .txt {font-size: 13px;}
+    .covid-popup .tb-ctn {margin: 30px 0;}
+    .covid-popup table td,
+    .covid-popup table th {font-size: 13px;}
+    .covid-popup .tb-ctn .desc {font-size: 12px;}
+}

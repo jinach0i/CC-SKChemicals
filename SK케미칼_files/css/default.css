@@ -1,0 +1,152 @@
+﻿@charset "utf-8";
+/* @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css); */
+/* 수정처리 2021-05-07
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&amp;display=swap');
+*/
+
+/* @font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 300;
+src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff2) format('woff2'),
+url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff) format('woff'),
+url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.otf) format('opentype');}
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 400;
+src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2) format('woff2'),
+url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff) format('woff'),
+url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf) format('opentype');}
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 500;
+src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff2) format('woff2'),
+url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff) format('woff'),
+url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.otf) format('opentype');}
+@font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 700;
+src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff2) format('woff2'),
+url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff) format('woff'),
+url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.otf) format('opentype');}
+ */
+
+ @font-face {
+     font-family: 'Noto Sans KR';
+     font-style: normal;
+     font-weight: 100;
+     src: url(/asset/fonts/notokr-thin.eot);
+     src: url(/asset/fonts/notokr-thin.eot?#iefix) format('embedded-opentype'),
+     url(/asset/fonts/notokr-thin.woff) format('woff'),
+     url(/asset/fonts/notokr-thin.ttf) format('truetype'),
+     url(/asset/fonts/notokr-thin.svg#notokr-thin) format('svg');
+ }
+ @font-face {
+     font-family: 'Noto Sans KR';
+     font-style: normal;
+     font-weight: 300;
+     src: url(/asset/fonts/notokr-light.eot);
+     src: url(/asset/fonts/notokr-light.eot?#iefix) format('embedded-opentype'),
+     url(/asset/fonts/notokr-light.woff) format('woff'),
+     url(/asset/fonts/notokr-light.ttf) format('truetype'),
+     url(/asset/fonts/notokr-light.svg#notokr-light) format('svg');
+ }
+ @font-face {
+     font-family: 'Noto Sans KR';
+     font-style: normal;
+     font-weight: 500;
+     src: url(/asset/fonts/notokr-regular.eot);
+     src: url(/asset/fonts/notokr-regular.eot?#iefix) format('embedded-opentype'),
+     url(/asset/fonts/notokr-regular.woff) format('woff'),
+     url(/asset/fonts/notokr-regular.ttf) format('truetype'),
+     url(/asset/fonts/notokr-regular.svg#notokr-regular) format('svg');
+ }
+
+ @font-face {
+     font-family: 'Noto Sans KR';
+     font-style: normal;
+     font-weight: 700;
+     src: url(/asset/fonts/notokr-medium.eot);
+     src: url(/asset/fonts/notokr-medium.eot?#iefix) format('embedded-opentype'),
+     url(/asset/fonts/notokr-medium.woff) format('woff'),
+     url(/asset/fonts/notokr-medium.ttf) format('truetype'),
+     url(/asset/fonts/notokr-medium.svg#notokr-medium) format('svg');
+ }
+ @font-face {
+     font-family: 'Noto Sans KR';
+     font-style: normal;
+     font-weight: 900;
+     src: url(/asset/fonts/notokr-bold.eot);
+     src: url(/asset/fonts/notokr-bold.eot?#iefix) format('embedded-opentype'),
+     url(/asset/fonts/notokr-bold.woff) format('woff'),
+     url(/asset/fonts/notokr-bold.ttf) format('truetype'),
+     url(/asset/fonts/notokr-bold.svg#notokr-bold) format('svg');
+ }
+
+
+* {margin:0; padding:0; font-family:"Noto Sans KR",-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif; box-sizing:border-box; line-height: 1.5em;}
+html,body{width:100%;height:100%;margin:0;padding:0;font-size:18px; color:#111111;-webkit-text-size-adjust: 100% ; font-weight: 300;}
+html,body,div,p,ul,li,ol,dl,dt,dd,input,textarea,select,p,hr,h1,h2,h3,h4,h5{margin:0;padding:0;letter-spacing: -0.02em;word-break: keep-all;}
+ul,li,ol,dl,dd,dt{list-style:none;}
+img,fieldset{border:0}
+ul,ol{list-style:none}
+em,address{font-style:normal}
+a,a:hover,a:active,a:focus {text-decoration:none;color:#333;}
+a, a::after, a::before {transition: all 0.2s; -webkit-transition: all 0.2s;}
+legend, fieldset label {width:1px;height:1px;overflow:hidden;}
+caption {
+    position: absolute;
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    white-space: nowrap !important;
+    border: 0 !important;
+}
+table{margin:0px;border-collapse:collapse;-ms-word-break: keep-all;word-break: keep-all;}
+/* td,th,p,span {letter-spacing: -0.05em;}-ms-word-break: keep-all;word-break: keep-all;*/
+.hidden{position: absolute; left:-9999px;}
+.overflow{overflow:hidden}
+.blind{visibility:hidden;overflow:hidden;position:absolute;top:0;left:0;width:1px;height:1px;font-size:0;line-height:0}
+input, select, textarea {outline: none; font-size: 18px; font-family:"Noto Sans KR",-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;}
+input[type="text"], select, textarea, button {
+   -webkit-appearance: none;
+   -webkit-border-radius: 0;
+}
+input[type="text"] {border: 1px solid #e2e2e2; transition: all 0.2s;}
+input[type="text"]:focus {border: 1px solid #222;}
+select {
+    border: 1px solid #e2e2e2;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    transition: all 0.2s;
+    }
+select::-ms-expand { display:none;}
+select:focus {border: 1px solid #222;}
+
+body {overflow-x: hidden;}
+body.fix {overflow: hidden;}
+
+/* 폰트굵기 */
+.txt-l {font-weight: 300 !important;}
+.txt-m {font-weight: 500;}
+.txt-b {font-weight: 600;}
+
+/* 텍스트정렬 */
+.align-c {text-align: center !important;}
+.align-l {text-align: left !important;}
+.align-r {text-align: right !important;}
+
+/* 텍스트컬러 */
+.red {color:#e0002a;}    .black {color:#222;}
+.green {color:#98c93f;}    .orange {color:#ef8009;}
+
+
+/* 넓이 */
+.wd-10 {width: 10%;}     .wd-15 {width: 15%;}
+.wd-20 {width: 20%;}     .wd-25 {width: 25%;}
+.wd-30 {width: 30%;}     .wd-35 {width: 35%;}
+.wd-40 {width: 40%;}     .wd-45 {width: 45%;}
+.wd-60 {width: 60%;}     .wd-65 {width: 65%;}
+
+@media(max-width: 1200px) {
+    input, button, select, textarea {font-size: 16px;}
+}
+@media(max-width: 768px) {
+    input, button, select, textarea {font-size: 13px;}
+}

@@ -1,0 +1,764 @@
+﻿@charset "utf-8";
+/* *******************************************************
+ * filename : sub_style.css
+ * description : 서브디자인_회사소개 CSS
+ * date : 2020-07-04
+******************************************************** */
+
+/* 회사소개_ceo인사말*/
+.sub-ceo {width: 1200px; margin: 0 auto; padding-left: 360px; background: url('../images/img/ceo-img01.jpg') no-repeat}
+.sub-ceo .title-box {width: 100%; padding-left: 60px;padding-bottom: 25px; border-bottom: 1px solid #ccc; position: relative;}
+.sub-ceo .title-box .txt {padding-top: 162px; padding-right: 80px;font-size: 32px; position: relative;}
+.sub-ceo .title-box .txt p {word-break: keep-all; line-height: 1.5em; color: #222;}
+.sub-ceo .title-box .txt .quote {font-size: 85px; color:#cccccc;}
+.sub-ceo .title-box .txt .quote01 {position: absolute; left:0; top: 70px;}
+.sub-ceo .title-box .txt02 {color:#222; font-size: 16px; font-weight: 500; text-align: right;}
+.sub-ceo .title-box .txt02 span {font-size: 20px;}
+.sub-ceo .article {margin-top: 110px; padding-left: 60px;}
+.sub-ceo .article p {color:#222;font-size: 20px;}
+.sub-ceo .article p + p {margin-top: 30px;}
+.sub-ceo .article .txt01 {font-size: 25px; font-weight: 400; color:#222222;}
+.sub-ceo .article .txt02 {text-align: right; font-size: 16px; font-weight: 400;}
+.sub-ceo .article .txt02 span {font-size: 22px;}
+
+/* 회사소개_회사개요*/
+.sub-intro article + article {margin-top: 110px;}
+.sub-intro .ctn01 {width: 100%;}
+.sub-intro .ctn01 .txt01 {font-size: 45px; color:#e0002a; text-align: center;}
+.sub-intro .ctn01 .desc {text-align: center; padding: 0 30px;}
+.sub-intro .ctn01 .txt02 {font-size: 27px; color:#222; margin-top: 15px;}
+.sub-intro .ctn01 .txt02 span {display: block;}
+.sub-intro .ctn02 {width: 1200px; margin: 70px auto 0; border-top: 1px solid #d6d6d6; border-bottom: 1px solid #d6d6d6;}
+.sub-intro .ctn02 .area1 {display: flex;}
+.sub-intro .ctn02 .area1 .box {flex: 1; padding: 30px 0 20px;}
+.sub-intro .ctn02 .area1 .title {font-size: 43px; font-weight: 600; line-height: 1em; text-shadow:1px 1px 2px black;}
+.sub-intro .ctn02 .area1 .counter {font-size: 55px; color:#222; font-weight: 600; line-height: 1em;}
+.sub-intro .ctn02 .area1 .txt02 {font-size: 14px;}
+.sub-intro .ctn02 .area1 .count-box {text-align: right; padding-top: 80px;}
+.sub-intro .ctn02 .area1 .gc {padding-right: 50px; background: url('../images/img/intro-img01.png') no-repeat 13px 130px;}
+.sub-intro .ctn02 .area1 .ls {padding-left: 50px; background: url('../images/img/intro-img02.png') no-repeat left 153px;}
+.sub-intro .ctn02 .area2 .txt {text-align: right; font-size: 14px;}
+.sub-intro .ctn02 .area2 > ul {display: flex; width: 100%; border-top: 1px solid #d6d6d6;}
+.sub-intro .ctn02 .area2 > ul > li {flex: 1; padding: 50px 50px 30px; text-align: center;}
+.sub-intro .ctn02 .area2 .title {font-size: 20px; color:#e0002a; font-weight: 400;}
+.sub-intro .ctn02 .area2 .value {font-size: 25px;}
+.sub-intro .ctn02 .area2 .value span {font-size: 45px; font-weight: 600; color:#222;}
+.sub-intro .ctn03 {width: 100%;}
+.sub-intro .ctn03 .box {width: 100%; position: relative;}
+.sub-intro .ctn03 .bg {
+    height: 450px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+.sub-intro .ctn03 .box1 .bg {background-image: url('../images/img/intro-img03.jpg'); left:0; right: 50%; margin-right: -45px;}
+.sub-intro .ctn03 .box2 .bg {background-image: url('../images/img/intro-img04.jpg'); right:0; left: 50%; margin-left: -100px;}
+.sub-intro .ctn03 .box3 .bg {background-image: url('../images/img/intro-img05.jpg'); left:0; right: 50%; margin-right: -228px;}
+.sub-intro .ctn03 .bg .title {font-size: 30px; line-height: 1em; color:#fff; word-break: keep-all; padding: 25px; position: absolute;font-weight:bold; text-shadow:2px 2px 3px gray;}
+.sub-intro .ctn03 .bg .title span {display: block;}
+.sub-intro .ctn03 .box1 .bg .title {background-color: rgba(169, 0, 0, 0.7); right: 0; top: 48px;}
+.sub-intro .ctn03 .box2 .bg .title {background-color: rgba(29, 128, 4, 0.7); left:0; top: 100px;}
+.sub-intro .ctn03 .box3 .bg .title {background-color: rgba(238, 128, 10, 0.7); right:0; top: 88px;}
+.sub-intro .ctn03 .txt-box {width: 1200px; margin: 0 auto;}
+.sub-intro .ctn03 .box1 .txt-box {padding-left: 730px; padding-top: 60px; padding-bottom: 60px;}
+.sub-intro .ctn03 .box2 .txt-box {padding-right: 775px; padding-top: 118px; padding-bottom: 60px;}
+.sub-intro .ctn03 .box3 .txt-box {padding-left: 890px; padding-top: 117px;}
+.sub-intro .ctn04 {width: 100%; background: #fff; margin-top: 180px;}
+.sub-intro .ctn04 .inner {width: 1200px; margin: 0 auto; display: flex; padding: 90px 0;}
+.sub-intro .ctn04 .box {
+    flex:1; border-left: 1px solid #d6d6d6;
+    padding: 125px 30px 10px 30px;
+    background-repeat: no-repeat;
+    background-position: center 10px;
+    background-size: 80px;
+}
+.sub-intro .ctn04 .box:first-child {border-left: 0;}
+.sub-intro .ctn04 .box01 {background-image: url('../images/icon/icon-intro01.png');}
+.sub-intro .ctn04 .box02 {background-image: url('../images/icon/icon-intro02.png');}
+.sub-intro .ctn04 .box03 {background-image: url('../images/icon/icon-intro03.png');}
+.sub-intro .ctn04 .box04 {background-image: url('../images/icon/icon-intro04.png');}
+.sub-intro .ctn04 .box dl + dl {margin-top: 25px;}
+.sub-intro .ctn04 .box dl dt {font-size: 25px; font-weight: 600; text-align: center; margin-bottom: 15px; color:#222;}
+.sub-intro .ctn04 .box dl dd { font-size: 18px; word-break: keep-all;}
+.sub-intro .ctn04 .box dl dd + dd {margin-top: 15px;}
+.sub-intro .ctn04 .box02 dl dd {text-align: left;}
+
+/* 회사소개_연혁*/
+.sub-history .historyArea {width: 1200px; margin: 0px auto 0; position: relative;}
+.sub-history .historyArea.page02 {padding-bottom: 110px;}
+.sub-history .historyArea.page03 {padding-bottom: 190px;}
+.sub-history .historyArea .h5 {font-size: 60px; color:#e0002a; font-weight: 600; text-align: center;}
+.sub-history .historyArea .line {position: absolute; top: 105px; left: 50%; bottom: 0; width: 1px; border: 1px dashed #d6d6d6;}
+.sub-history .historyArea .line::before {content: ''; display: block; width: 22px; height: 19px; background: url('../images/icon/icon-history-bullet01.png') no-repeat center center; background-size: 100%; position: absolute; top: -1px; left: -11px;}
+.sub-history .historyArea .line .in {border: 1px solid #e0002a; width: 1px; display: block; transition: height 0.3s ease-out; margin-left: -1px;}
+.sub-history .historyArea .bg-year {position: absolute; right:0; bottom: -91px; font-size: 180px; font-weight: 600; color:#f5f4f4;}
+.sub-history .historyArea .bg-year span {font-size: 100px;}
+.sub-history .historyArea .bg-year.left {right: inherit; left:0;}
+.sub-history .history {display: flex;}
+.sub-history .history dl {width: 50%; margin-top: 60px;}
+.sub-history .history dl dt {font-size: 30px; color:#d6d6d6; font-weight: 600; margin-bottom: 23px;}
+.sub-history .history dl dt::before {
+    content: ''; display: block;
+    width: 84px; height: 17px;
+    position: absolute; top: 14px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+    z-index: 1;
+    transition: all 0.3s ease-out;
+}
+.sub-history .history dl dd {position: relative; word-break: keep-all;}
+.sub-history .history dl dd + dd {margin-top: 7px;}
+.sub-history .history dl dd span {display: block;}
+.sub-history .history .img {width: 50%; padding-top: 135px;}
+.sub-history .history .img p {font-size: 15px; font-weight: 500;}
+.sub-history .history.left {text-align: right;}
+.sub-history .history.left dl {padding-right: 93px;}
+.sub-history .history.left dl dd {padding-right: 10px;}
+.sub-history .history.left dl dt {position: relative;}
+.sub-history .history.left dl dt::before {right: -98px; background-image: url('../images/icon/icon-history-bullet05.png');}
+.sub-history .history.left dl dd::after {content: '-'; position: absolute; top: 0; right:0;}
+.sub-history .history.left .img {padding-left: 90px; text-align: left;}
+.sub-history .history.right {justify-content: flex-end;}
+.sub-history .history.right dl {padding-left: 93px;}
+.sub-history .history.right dl dt {position: relative;}
+.sub-history .history.right dl dt::before {left: -95px; background-image: url('../images/icon/icon-history-bullet04.png');}
+.sub-history .history.right dl dd {padding-left: 10px;}
+.sub-history .history.right dl dd::before {content: '-'; position: absolute; top: 0; left:0;}
+.sub-history .history.right .img {padding-left: 190px;}
+.sub-history .history.active dl dt {color:#222;}
+.sub-history .history.active.left dl dt::before {background-image: url('../images/icon/icon-history-bullet03.png'); width: 89px; right: -102px;}
+.sub-history .history.active.right dl dt::before {background-image: url('../images/icon/icon-history-bullet02.png'); width: 89px; left: -101px;}
+
+/* 회사소개_미션과 비전*/
+.sub-vision .vision01 {width: 100%;}
+.sub-vision .vision01 .desc {text-align: center;}
+.sub-vision .vision01 img {display: block; margin: 45px auto 0; max-width: 100%;}
+.sub-vision .vision02 {background: url('../images/img/vision-img01.jpg') no-repeat center center; background-size: cover; height: 950px;}
+
+/* 회사소개_국내외 사업장*/
+.sub-business .map-area {margin: 0 auto;}
+.sub-business .map-area img {display: block; margin: 0 auto;}
+.sub-business .map-area .map-m {display: none; width: 100%;}
+.sub-business .tab-area {margin-top: 135px;}
+.sub-business .business-area {width: 1200px; margin: 0 auto;}
+.sub-business .business-area + .business-area > ul {padding-top: 0;}
+.sub-business .business-area > ul {width: 100%; display: flex; flex-wrap: wrap;}
+.sub-business .business-area .title {font-size: 25px; color:#222; font-weight: 600; margin-bottom: 15px;}
+.sub-business .business-area .area-box {width: 50%; margin-top: 80px;}
+.sub-business .business-area .area-box:nth-child(2n) {padding-left: 48px;}
+.sub-business .business-area .area-box:nth-child(2n-1) {padding-right: 48px;}
+.sub-business .business-area .area-box .inner {height: 100%;}
+.sub-business .business-area .area-box .img-box img {width: 100%;}
+.sub-business .business-area .area-box .desc {padding: 30px 100px 30px 30px; border: 1px solid #d6d6d6; position: relative; min-height: 169px;}
+.sub-business .business-area .area-box .desc p {line-height: 1.5em; font-size: 20px; word-break: keep-all;}
+.sub-business .business-area .area-box .desc > ul {display: flex; margin-top: 20px;}
+.sub-business .business-area .area-box .desc > ul > li {flex: 1;}
+.sub-business .business-area .area-box .desc strong {color:#222;}
+.sub-business .business-area .area-box .desc .link {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #717171 url('../images/icon/icon-map.png') no-repeat center center;
+    background-size: 20px;
+    font-size: 0;
+    text-indent: -9999%;
+    position: absolute;
+    right: 30px; top: 30px;
+}
+.sub-business .business-area .area-box .desc .link:hover {background: #de0021 url(../images/icon/icon-map.png) no-repeat center center; background-size: 20px;}
+.sub-business .area-box .img-box {border-top:1px solid #de0021;}
+.sub-business .area-box .img-box img {display: block;}
+.sub-business .area-box.country .ctn-box {border: 1px solid #d6d6d6;}
+.sub-business .business-area .area-box.country .desc {border: 0; min-height: 198px;}
+.sub-business .area-box.country .img-box {display: flex; align-items: center; justify-content: center; padding: 35px 10px; background: #f5f4f4;}
+.sub-business .area-box.country .img-box img {width: 34px;}
+.sub-business .area-box.country .img-box p {color:#222; font-size: 20px; margin-left: 20px; font-weight: 500;}
+.sub-business .area-box-wrap .area-box:nth-child(1),
+.sub-business .area-box-wrap .area-box:nth-child(2) {margin-top:0;}
+.sub-business .area-box-wrap .wrap-title {font-size: 25px; color:#222; font-weight: 600; margin-bottom: 15px; margin-top: 80px;}
+
+/* 회사소개_자회사/투자사*/
+.sub-company .title-area > a {display: block; width: 100%; position: relative; border-bottom: 1px solid #d6d6d6;}
+/* .sub-company .title-area a::before {content:''; display: block; width: 100%; border-bottom: 1px solid #d6d6d6; position: absolute; left: 0; bottom: 5px;}
+.sub-company .title-area a::after {
+    content: '';
+    display: block;
+    width: 17px;
+    height: 9px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url('../images/common/icon-arrow-d-g.png');
+    position: absolute;
+    right: 5px;
+    bottom: 20px;
+}
+.sub-company .title-area a.on::after {background-image: url('../images/common/icon-arrow-u-r.png');} */
+.sub-company .title-area .logo {display: inline-block; margin-bottom: -4px;}
+.sub-company .title-area .logo::after {content: ''; display: block; width: 100%; height: 3px; background:#ef8009; margin-top: 15px;}
+.sub-company .title-area .logo img {width: 236px; display: block;}
+.sub-company .title-area .info {margin-top: 30px;}
+.sub-company .title-area .info li + li {margin-top: 5px;}
+.sub-company .title-area .info dl {display: flex;}
+.sub-company .title-area .info dt {width: 75px; font-size: 17px; font-weight: 500; color:#222;}
+.sub-company .title-area .info dd {padding-left: 40px; color:#222;}
+.sub-company .ctn-area .ctn {margin-top: 50px; align-items: flex-end; display: flex;}
+.sub-company .ctn-area .ctn dl {padding-left: 50px;}
+.sub-company .ctn-area .ctn dl dt {font-size: 25px; margin-bottom: 20px; color:#222;}
+.sub-company .ctn-area .ctn dl dt span {display: block;}
+.sub-company .ctn-area .ctn dl dd {line-height: 1.9em;}
+
+
+/* 회사소개_채용정보*/
+.sub-employ .talent-area .desc {text-align: center;}
+.sub-employ .talent-area .desc .h5 {font-weight: 300; margin-bottom: 30px;}
+.sub-employ .talent-area .desc .h5 strong {font-weight: 600;}
+.sub-employ .talent-area .desc .txt {color:#222; font-weight: 300; font-size: 20px;}
+.sub-employ .talent-area .desc .txt span {display: block;}
+.sub-employ .talent-area .article01 {width: 100%; background: url('../images/img/employ-img01.jpg') no-repeat center center; background-size: cover; padding: 60px 0 90px; margin-top: 45px;}
+.sub-employ .talent-area .desc-wrap {display: flex; justify-content: center; text-align: center;}
+.sub-employ .talent-area .desc-wrap > li {flex: 1; padding: 0 10px;}
+.sub-employ .talent-area .desc-wrap .title {font-size: 22px; color:#222; font-weight: 500;}
+.sub-employ .talent-area .desc-wrap .txt {color:#222; word-break: keep-all;}
+.sub-employ .talent-area .article01 .desc-wrap {width: 955px; margin: 0 auto;}
+.sub-employ .talent-area .article02 {width: 100%; height: 210px;}
+.sub-employ .talent-area .article02 p {width: 350px; background:#fff; text-align: center; border: 1px solid #d6d6d6; font-size: 30px; font-weight: 500; position: relative;}
+.sub-employ .talent-area .article02 p::before {content:''; height: 30px; border: 1px dashed #d6d6d6; position: absolute; left: 50%; bottom: -35px;}
+.sub-employ .talent-area .article02 p::after {content:''; display: block; width: 9px; height: 9px; background:#d6d6d6; border-radius: 30px; position: absolute; left: 50%; bottom: -40px; margin-left: -3px;}
+.sub-employ .talent-area .article02 img {width: 286px; margin: 55px auto 0; display: block;}
+.sub-employ .talent-area .article02 .txt01 {margin: -30px auto 0; color:#ee8000;}
+.sub-employ .talent-area .article02 .txt02 {margin: 52px auto 0px; color:#80be26;}
+.sub-employ .talent-area .article02 .txt02::before {bottom:inherit; top: -33px;}
+.sub-employ .talent-area .article02 .txt02::after {bottom: inherit; top: -40px;}
+.sub-employ .talent-area .article03 {width: 100%; height: 320px; background: url('../images/img/employ-img02.jpg') no-repeat center center; background-size: cover; padding: 90px 0 60px; margin-top: 23px;}
+.sub-employ .talent-area .article03 .desc-wrap {width: 1200px; margin: 0 auto;}
+.sub-employ .job-more {width: 100%; height: 200px; background: url('../images/img/employ-img03.jpg') no-repeat center center; background-size: 100% 100%; transition: all 0.2s; margin-top: 100px;}
+.sub-employ .job-more a {display: block; width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; color:#fff; font-size: 25px; font-weight: 500;}
+.sub-employ .job-more a span::after {content: ''; display: inline-block; width: 53px; height: 53px; border: 1px solid #fff; background: url('../images/icon/icon-more-w.png') no-repeat center center; background-size: 15px; margin-left: 25px; margin-top: -7px; vertical-align: middle;}
+
+.sub-employ .job-area .info {width: 100%; height: 440px; position: relative; display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 110px;}
+.sub-employ .job-area .info .desc {width: 440px; color:#222;}
+.sub-employ .job-area .info .desc .title {font-size: 50px; font-weight: 600; margin-bottom: 20px; text-transform: uppercase;}
+.sub-employ .job-area .info img {position: absolute; left: 510px; bottom: 0; max-width:100%;}
+.sub-employ .job-area .ctn-area .title {font-size: 35px; padding-left: 60px; position: relative; padding-bottom: 5px;}
+.sub-employ .job-area .ctn-area .title::before {content: ''; display: block; width: 40px; height: 1px; position: absolute; left:0; top: 35px;}
+.sub-employ .job-area .ctn-area .title::after {content: ''; display: block; width: 1px; position: absolute; left:0; bottom:0; top:35px;}
+.sub-employ .job-area .box-wrap .box {padding: 12px 0 12px 60px; display: flex; justify-content: flex-start; position: relative; border-left: 1px solid #d6d6d6;}
+.sub-employ .job-area .box-wrap .box:last-child {border-left:0;}
+.sub-employ .job-area .box-wrap .box:last-child::before {content:''; display: block; width: 1px; position: absolute; left:0; top:0; bottom: 50%; background:#d6d6d6;}
+.sub-employ .job-area .box-wrap .box .ctn01 {padding: 40px 60px; width: 663px; display: flex; align-items: center; position: relative; border: 1px solid #d6d6d6;}
+.sub-employ .job-area .box-wrap .box .ctn01::before {content: ''; display: block; width: 42px; height: 1px; position: absolute; right:-42px; top: 50%; background:#d6d6d6;}
+.sub-employ .job-area .box-wrap .box .ctn01 .num {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#fff;
+    font-size: 20px;
+    left: -22.5px;
+    top: 50%;
+    margin-top: -22.5px;
+    font-weight: 600;
+    background:#222;
+}
+.sub-employ .job-area .box-wrap .box .ctn01 .num::before {content: ''; display: block; width: 38px; height: 1px; position: absolute; top: 22.5px; left: -38px; background:#d6d6d6;}
+.sub-employ .job-area .box-wrap .box .ctn01 dt {font-size: 23px; color:#222; font-weight: 500; margin-bottom: 15px;}
+.sub-employ .job-area .box-wrap .box .ctn02 {width: 435px; padding-left: 40px;}
+.sub-employ .job-area .box-wrap .box .ctn02 dl {font-size: 16px; padding: 35px; border: 1px solid #f6f4f5; background:#f6f4f5; width:100%; height: 100%;}
+.sub-employ .job-area .box-wrap .box .ctn02 dt {color:#222; font-weight: 500; margin-bottom: 5px;}
+.sub-employ .job-area .box-wrap .box .ctn02 dd {padding-left: 9px;}
+.sub-employ .job-area .box-wrap .box .ctn02 dd + dt {margin-top: 20px;}
+
+.sub-employ .job-area .ctn-area.gc .title {color:#99c93f;}
+.sub-employ .job-area .ctn-area.gc .title::before,
+.sub-employ .job-area .ctn-area.gc .title::after,
+.sub-employ .job-area .ctn-area.gc .box-wrap .box:last-child::before,
+.sub-employ .job-area .ctn-area.gc .box-wrap .box .ctn01::before,
+.sub-employ .job-area .ctn-area.gc .box-wrap .box .ctn01 .num,
+.sub-employ .job-area .ctn-area.gc .box-wrap .box .ctn01 .num::before{background: #99c93f;}
+.sub-employ .job-area .ctn-area.gc .box-wrap .box {border-left: 1px solid #99c93f;}
+.sub-employ .job-area .ctn-area.gc .box-wrap .box:last-child {border-left:0;}
+.sub-employ .job-area .ctn-area.gc .box-wrap .box .ctn01 {border: 1px solid #99c93f;}
+
+.sub-employ .job-area .ctn-area.ls .title {color:#ef8009;}
+.sub-employ .job-area .ctn-area.ls .title::before,
+.sub-employ .job-area .ctn-area.ls .title::after,
+.sub-employ .job-area .ctn-area.ls .box-wrap .box:last-child::before,
+.sub-employ .job-area .ctn-area.ls .box-wrap .box .ctn01::before,
+.sub-employ .job-area .ctn-area.ls .box-wrap .box .ctn01 .num,
+.sub-employ .job-area .ctn-area.ls .box-wrap .box .ctn01 .num::before{background: #ef8009;}
+.sub-employ .job-area .ctn-area.ls .box-wrap .box {border-left: 1px solid #ef8009;}
+.sub-employ .job-area .ctn-area.ls .box-wrap .box:last-child {border-left:0;}
+.sub-employ .job-area .ctn-area.ls .box-wrap .box .ctn01 {border: 1px solid #ef8009;}
+
+.sub-employ .job-area .ctn-area.only .box-wrap .box:first-child {border-left: 0;}
+.sub-employ .job-area .ctn-area.only .box-wrap .box:first-child::before {content:''; display: block; width: 1px; position: absolute; left:0; top:50%; bottom: 0; background:#d6d6d6;}
+
+/* 채용정보new */
+.sub-jobinfo {width: 100%; height: 91vh; position: relative; margin-top: -30px; margin-bottom: -120px;}
+.sub-jobinfo .slide-btn a {
+    position: absolute;
+    display: block;
+    width: 55px;
+    height: 55px;
+    border: 1px solid #222;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 22px;
+    top: 50%;
+    margin-top: -27.5px;
+    z-index: 1;
+}
+.sub-jobinfo .slide-btn a:hover {background-color: rgba(255, 255, 255, 0.5)}
+.sub-jobinfo .slide-btn a.prev {background-image: url('../images/common/icon-arrow-l-g03.png'); left: 55px;}
+.sub-jobinfo .slide-btn a.next {background-image: url('../images/common/icon-arrow-r-g03.png'); right: 55px;}
+.sub-jobinfo .slide-btn a span {font-size: 0;}
+.sub-jobinfo .slide {position: absolute; top:0; left:0; bottom:0; right: 0;}
+.sub-jobinfo .list {width: 100%; height: 100%; position: relative;}
+.sub-jobinfo .list .title-area {width: 1008px; top: 150px; position: absolute; left: 50%; margin-left: -504px; z-index: 1;}
+.sub-jobinfo .list .title-area .title {padding: 0 5px; font-size: 20px; color:#222; display: inline-block;}
+.sub-jobinfo .slick-list,
+.sub-jobinfo .slick-slider .slick-track,
+.sub-jobinfo .slick-slider .slick-list {height:100%;}
+.sub-jobinfo .slick-dots {position: absolute; bottom: 40px; display: flex; align-items: center; justify-content: center; width: 100%; z-index: 1;}
+.sub-jobinfo .slick-dots button {font-size: 0; width: 10px; height: 10px; margin: 10px; border-radius: 50%; border: 0; background:#fff; cursor: pointer; transition: all 0.2s;}
+.sub-jobinfo .slick-dots .slick-active button {background: #f29e42;}
+.sub-jobinfo .list01 {width: 100%; height: 100%; background: #fcf4e8;}
+.sub-jobinfo .list01 .box {background: url('../images/img/jobinfo-img01.png') no-repeat center center; background-size: cover;width: 1050px; height: 545px; margin: 130px auto 0;}
+.sub-jobinfo .list02 .box-wrap {display: flex; position: absolute; top:0; left:0; right:0; bottom:0;}
+.sub-jobinfo .list02 .box-wrap > .box {width: 50%; height: 100%; background-size: cover; background-repeat: no-repeat; background-position: center center; display: flex; align-items: flex-end; justify-content: center;}
+.sub-jobinfo .list02 .box01 {background-image: url('../images/img/jobinfo-img02.jpg');}
+.sub-jobinfo .list02 .box02 {background-image: url('../images/img/jobinfo-img03.jpg');}
+.sub-jobinfo .list02 .box > a {display: block; margin-bottom: 170px;}
+/* .sub-jobinfo .list02 .box01 a {right: 130px;}
+.sub-jobinfo .list02 .box02 a {left: 130px;} */
+.sub-jobinfo .popup {position: fixed; top: 50%; left: 50%; transform: translateY(-50%); z-index: 2; display: none;}
+.sub-jobinfo .popup.talent {width: 1200px; margin-left: -600px; position: absolute;}
+.sub-jobinfo .popup.talent .top-area {height: 170px; position: relative; background-position: 270px 20px; background-repeat: no-repeat;}
+.sub-jobinfo .popup.talent .top-area .title {padding-top: 62px;}
+.sub-jobinfo .popup.talent .top-area .close {position: absolute; top: 17px; right: 17px;display: block; width: 17px; height: 17px; background: url('../images/img/jobinfo-img31.png') no-repeat center center;}
+.sub-jobinfo .popup.talent .top-area .go {position: absolute; right: 17px; bottom: 17px;}
+.sub-jobinfo .popup.talent .ctn {background:#fff; display: flex; justify-content: center;padding: 73px;}
+.sub-jobinfo .popup.talent .ctn .box {width: 280px; margin: 0 23px;}
+.sub-jobinfo .popup.talent .ctn .box p {margin-top: 15px; padding-top: 15px; height: 220px; color:#222;}
+.sub-jobinfo .popup.talent01 .top-area {background-color:#ffb261; background-image: url('../images/img/jobinfo-img20.png');}
+.sub-jobinfo .popup.talent01 .top-area .title {padding-left: 130px;}
+.sub-jobinfo .popup.talent01 .ctn .box p {border-top: 1px solid #ffb261;}
+.sub-jobinfo .popup.talent02 .top-area {background-color:#a3d15f; background-image: url('../images/img/jobinfo-img30.png');}
+.sub-jobinfo .popup.talent02 .top-area .title {margin-left: 58px;}
+.sub-jobinfo .popup.talent02 .ctn .box p {border-top: 1px solid #a3d15f;}
+.sub-jobinfo .list03 {width: 100%; height: 100%; display: flex;}
+.sub-jobinfo .list03 .box {width: 25%; height: 100%; background-repeat: no-repeat; background-position: center -100px; background-size: cover; position: relative;}
+.sub-jobinfo .list03 .box01 {background-image: url('../images/img/jobinfo-img06.jpg'); background-color: #fff0f7;}
+.sub-jobinfo .list03 .box02 {background-image: url('../images/img/jobinfo-img07.jpg'); background-color: #fff;}
+.sub-jobinfo .list03 .box03 {background-image: url('../images/img/jobinfo-img08.jpg'); background-color: #f1f8fe;}
+.sub-jobinfo .list03 .box04 {background-image: url('../images/img/jobinfo-img09.jpg'); background-color: #fff;}
+.sub-jobinfo .list03 .txt-box {position: absolute; bottom: 130px; text-align: center; width: 100%; z-index: 2;}
+.sub-jobinfo .list03 .txt-box .title {font-size: 70px; font-weight: 700; color:#222;}
+.sub-jobinfo .list03 .txt-box ul {display: flex; align-items: center; justify-content: center; width: 170px; margin: 30px auto 0; border: 1px solid #d6d6d6; padding: 5px; min-height: 40px;}
+.sub-jobinfo .list03 .txt-box ul li a {display: block; font-size: 14px; font-weight: 400; color:#333; line-height: 1em;}
+.sub-jobinfo .list03 .txt-box ul li {width: 50%;}
+.sub-jobinfo .list03 .txt-box ul li + li {border-left: 1px solid #d6d6d6;}
+.sub-jobinfo .list04 {background: #f0faf0}
+.sub-jobinfo .list04 .go {position: absolute; left: 50%; bottom: 140px; margin-left: 350px;}
+.sub-jobinfo .list04 .box {background-image: url('../images/img/jobinfo-img11.png'); background-repeat: no-repeat; background-position: center center; background-size: 100%; width: 1024px; height: 531px; margin: 180px auto 0;}
+
+.sub-jobinfo .popup.employ {width: 1200px; top: 115px; bottom: 30px; margin-left: -600px; background:#fff; transform: none;}
+.sub-jobinfo .popup.employ .top-area {position: relative; padding: 30px;}
+.sub-jobinfo .popup.employ .top-area .title {font-size: 30px; color:#222; font-weight: 700;}
+.sub-jobinfo .popup.employ .ctn-area {padding: 0 30px 30px; position: absolute; top: 117px; right: 0; bottom:0; left:0; overflow: auto;}
+.sub-jobinfo .popup.employ .close {position: absolute; top: 17px; right: 17px;display: block; width: 17px; height: 17px; background: url('../images/img/jobinfo-img31.png') no-repeat center center;}
+.sub-jobinfo .popup.employ .ctn-area .title {font-size: 35px; padding-left: 60px; position: relative; padding-bottom: 5px;}
+.sub-jobinfo .popup.employ .ctn-area .title::before {content: ''; display: block; width: 40px; height: 1px; position: absolute; left:0; top: 35px;}
+.sub-jobinfo .popup.employ .ctn-area .title::after {content: ''; display: block; width: 1px; position: absolute; left:0; bottom:0; top:35px;}
+.sub-jobinfo .popup.employ .box-wrap .box {padding: 12px 0 12px 60px; display: flex; justify-content: flex-start; position: relative; border-left: 1px solid #d6d6d6;}
+.sub-jobinfo .popup.employ .box-wrap .box:last-child {border-left:0;}
+.sub-jobinfo .popup.employ .box-wrap .box:last-child::before {content:''; display: block; width: 1px; position: absolute; left:0; top:0; bottom: 50%; background:#d6d6d6;}
+.sub-jobinfo .popup.employ .box-wrap .box .ctn01 {padding: 40px 60px; width: 663px; display: flex; align-items: center; position: relative; border: 1px solid #d6d6d6;}
+.sub-jobinfo .popup.employ .box-wrap .box .ctn01::before {content: ''; display: block; width: 42px; height: 1px; position: absolute; right:-42px; top: 50%; background:#d6d6d6;}
+.sub-jobinfo .popup.employ .box-wrap .box .ctn01 .num {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#fff;
+    font-size: 20px;
+    left: -22.5px;
+    top: 50%;
+    margin-top: -22.5px;
+    font-weight: 600;
+    background:#222;
+}
+.sub-jobinfo .popup.employ .box-wrap .box .ctn01 .num::before {content: ''; display: block; width: 38px; height: 1px; position: absolute; top: 22.5px; left: -38px; background:#d6d6d6;}
+.sub-jobinfo .popup.employ .box-wrap .box .ctn01 dt {font-size: 23px; color:#222; font-weight: 500; margin-bottom: 15px;}
+.sub-jobinfo .popup.employ .box-wrap .box .ctn02 {width: 435px; padding-left: 40px;}
+.sub-jobinfo .popup.employ .box-wrap .box .ctn02 dl {font-size: 16px; padding: 35px; border: 1px solid #f6f4f5; background:#f6f4f5; width:100%; height: 100%;}
+.sub-jobinfo .popup.employ .box-wrap .box .ctn02 dt {color:#222; font-weight: 500; margin-bottom: 5px;}
+.sub-jobinfo .popup.employ .box-wrap .box .ctn02 dd {padding-left: 9px;}
+.sub-jobinfo .popup.employ .box-wrap .box .ctn02 dd + dt {margin-top: 20px;}
+
+.sub-jobinfo .popup.employ .ctn-area.gc .title {color:#99c93f;font-weight:bold;}
+.sub-jobinfo .popup.employ .ctn-area.gc .title::before,
+.sub-jobinfo .popup.employ .ctn-area.gc .title::after,
+.sub-jobinfo .popup.employ .ctn-area.gc .box-wrap .box:last-child::before,
+.sub-jobinfo .popup.employ .ctn-area.gc .box-wrap .box .ctn01::before,
+.sub-jobinfo .popup.employ .ctn-area.gc .box-wrap .box .ctn01 .num,
+.sub-jobinfo .popup.employ .ctn-area.gc .box-wrap .box .ctn01 .num::before{background: #537c05}
+.sub-jobinfo .popup.employ .ctn-area.gc .box-wrap .box {border-left: 1px solid #99c93f;}
+.sub-jobinfo .popup.employ .ctn-area.gc .box-wrap .box:last-child {border-left:0;}
+.sub-jobinfo .popup.employ .ctn-area.gc .box-wrap .box .ctn01 {border: 1px solid #99c93f;}
+
+.sub-jobinfo .popup.employ .ctn-area.ls .title {color:#ef8009;font-weight:bold;}
+.sub-jobinfo .popup.employ .ctn-area.ls .title::before,
+.sub-jobinfo .popup.employ .ctn-area.ls .title::after,
+.sub-jobinfo .popup.employ .ctn-area.ls .box-wrap .box:last-child::before,
+.sub-jobinfo .popup.employ .ctn-area.ls .box-wrap .box .ctn01::before,
+.sub-jobinfo .popup.employ .ctn-area.ls .box-wrap .box .ctn01 .num,
+.sub-jobinfo .popup.employ .ctn-area.ls .box-wrap .box .ctn01 .num::before{background: #ca6b05;}
+.sub-jobinfo .popup.employ .ctn-area.ls .box-wrap .box {border-left: 1px solid #ef8009;}
+.sub-jobinfo .popup.employ .ctn-area.ls .box-wrap .box:last-child {border-left:0;}
+.sub-jobinfo .popup.employ .ctn-area.ls .box-wrap .box .ctn01 {border: 1px solid #ef8009;}
+
+.sub-jobinfo .popup.employ .ctn-area.only .box-wrap .box:first-child {border-left: 0;}
+.sub-jobinfo .popup.employ .ctn-area.only .box-wrap .box:first-child::before {content:''; display: block; width: 1px; position: absolute; left:0; top:50%; bottom: 0; background:#d6d6d6;}
+
+@media(max-width: 1200px) {
+    /* 회사소개_ceo인사말*/
+    .sub-ceo {padding: 0 30px 0 200px !important; background: url('../images/img/ceo-img01.jpg') no-repeat left 47px; background-size: 200px;}
+    .sub-ceo .article .txt01 {font-size: 20px;}
+    .sub-ceo .article p + p {margin-top: 20px;}
+    .sub-ceo .title-box .txt {font-size: 24px; padding-top: 85px; padding-right: 21%;}
+    .sub-ceo .title-box .txt .quote {font-size: 65px;}
+    .sub-ceo .title-box .txt .quote01 {top: 24px;}
+
+    /* 회사소개_회사개요*/
+    .sub-intro article + article {margin-top: 30px;}
+    .sub-intro .ctn01 .txt01 {font-size: 30px;}
+    .sub-intro .ctn01 .txt02 {font-size: 20px;}
+    .sub-intro .ctn02 {margin-top: 40px; width: 100%; padding: 30px;}
+    .sub-intro .ctn02 .area1 .title {font-size: 30px;}
+    .sub-intro .ctn02 .area1 .counter {font-size: 40px;}
+    .sub-intro .ctn02 .area2 > ul > li {padding: 30px 25px 15px;}
+    .sub-intro .ctn02 .area2 .title {font-size: 16px;}
+    .sub-intro .ctn02 .area2 .value span {font-size: 30px;}
+    .sub-intro .ctn03 .bg {height: 400px}
+    .sub-intro .ctn03 .bg .title {font-size: 20px;}
+    .sub-intro .ctn03 .box2 .bg {margin-left: -45px;}
+    .sub-intro .ctn03 .box3 .bg {margin-right: -45px;}
+    .sub-intro .ctn03 .txt-box {width: 100%;}
+    .sub-intro .ctn03 .box1 .txt-box {padding-left: 60vw; padding-top: 3vw; padding-right: 30px; padding-bottom: 3vw;}
+    .sub-intro .ctn03 .box2 .txt-box {padding-right: 60vw; padding-top: 12vw; padding-left: 30px; padding-bottom: 3vw;}
+    .sub-intro .ctn03 .box3 .txt-box {padding-left: 60vw; padding-top: 10vw; padding-right: 30px; padding-bottom: 3vw;}
+    .sub-intro .ctn04 {margin-top: 100px;}
+    .sub-intro .ctn04 .inner {width: 100%; padding: 30px; flex-wrap: wrap;}
+    .sub-intro .ctn04 .box {background-size: 50px; padding: 76px 20px 10px 20px;}
+    .sub-intro .ctn04 .box dl dt {font-size: 18px;}
+    .sub-intro .ctn04 .box dl dd {font-size: 15px;}
+
+    /* 회사소개_연혁*/
+    .sub-history .historyArea.page02 {padding-bottom: 50px;}
+    .sub-history .historyArea.page03 {padding-bottom: 100px;}
+    .sub-history .historyArea .h5 {font-size: 30px;}
+    .sub-history .historyArea .line {top: 55px;}
+    .sub-history .historyArea .line::before {width: 15px; left: -7.5px; top: -4px;}
+    .sub-history .historyArea .bg-year {font-size: 90px; bottom: -47px; right: 30px;}
+    .sub-history .historyArea .bg-year.left {left: 30px;}
+    .sub-history .historyArea .bg-year span {font-size: 50px;}
+    .sub-history .history dl {margin-top: 40px;}
+    .sub-history .history dl dt {font-size: 23px;}
+    .sub-history .history dl dt::before {top: 10px; width: 37px; background-size: 80px;}
+    .sub-history .history .img {padding-top: 104px;}
+    .sub-history .history.left dl {padding-right: 40px;}
+    .sub-history .history.left dl dt::before {background-position: right center; right: -44px;}
+    .sub-history .history.left .img {padding-left: 40px;}
+    .sub-history .history.right dl {padding-left: 40px;}
+    .sub-history .history.right dl dt::before {background-position: left center; left: -43px;}
+    .sub-history .history.right .img {text-align:right; padding-right: 40px; padding-left: 0;}
+    .sub-history .history.active.left dl dt::before {width: 40px; right: -48px; background-position: right center;}
+    .sub-history .history.active.right dl dt::before {width: 40px; left: -47px; background-position: left center;}
+
+    /* 회사소개_미션과 비전*/
+    .sub-vision .vision02 {height: 500px;}
+
+    /* 회사소개_국내외 사업장*/
+    .sub-business .map-area {padding: 0 30px;}
+    .sub-business .map-area .map {width: 100%;}
+    .sub-business .tab-area {margin-top: 100px;}
+    .sub-business .business-area .area-box .title {font-size: 20px; margin-bottom: 10px;}
+    .sub-business .business-area .area-box .desc {padding: 20px; padding: 20px 100px 20px 20px; min-height: 125px;}
+    .sub-business .business-area .area-box .desc .link {right: 20px; top: 20px;}
+    .sub-business .business-area .area-box {margin-top: 50px;}
+    .sub-business .business-area .area-box:nth-child(2n) {padding-left: 35px;}
+    .sub-business .business-area .area-box:nth-child(2n-1) {padding-right: 35px;}
+    .sub-business .area-box-wrap .wrap-title {font-size:20px; margin-top:50px; margin-bottom: 10px;}
+    .sub-business .business-area .area-box .desc p {font-size: 16px;}
+    .sub-business .area-box.country .img-box p {font-size: 18px;}
+    .sub-business .business-area .area-box.country .desc {min-height: 160px;}
+
+    /* 회사소개_자회사/투자사*/
+    .sub-company .title-area .logo img {width: 200px;}
+    .sub-company .title-area .info dt {font-size: 16px;}
+    .sub-company .ctn-area .ctn img {width: 50%;}
+    .sub-company .ctn-area .ctn dl dt {font-size: 20px;}
+
+    /* 회사소개_채용정보*/
+    .sub-employ .talent-area .desc .h5 {margin-bottom: 15px;}
+    .sub-employ .talent-area .desc .txt {font-size: 17px;}
+    .sub-employ .talent-area .desc-wrap .title {font-size: 17px;}
+    .sub-employ .talent-area .article01 .desc-wrap {width: 100%; padding: 0 30px;}
+    .sub-employ .talent-area .article03 {height: auto;}
+    .sub-employ .talent-area .article03 .desc-wrap {width: 100%; padding: 0 30px;}
+    .sub-employ .job-more {height: 150px;}
+    .sub-employ .job-more a {font-size: 20px;}
+
+    .sub-employ .job-area .info {height: auto; margin-bottom: 50px;}
+    .sub-employ .job-area .info .desc {flex: 1; padding-right: 30px;}
+    .sub-employ .job-area .info .desc .title {font-size: 30px; margin-bottom: 10px;}
+    .sub-employ .job-area .info img {position: static; width: 50%;}
+    .sub-employ .job-area .ctn-area .title {font-size: 28px; padding-left: 40px;}
+    .sub-employ .job-area .ctn-area .title::before {width: 28px; top: 28px;}
+    .sub-employ .job-area .ctn-area .title::after {top: 28px;}
+    .sub-employ .job-area .box-wrap .box {padding: 12px 0 12px 40px;}
+    .sub-employ .job-area .box-wrap .box .ctn01 {padding: 30px 40px;}
+    .sub-employ .job-area .box-wrap .box .ctn01 dt {font-size: 18px;}
+    .sub-employ .job-area .box-wrap .box .ctn02 {padding-left: 0;}
+    .sub-employ .job-area .box-wrap .box .ctn02 dl {font-size: 14px;}
+    .sub-employ .job-area .box-wrap .box .ctn01 .num {font-size: 18px;}
+    .sub-employ .job-area .box-wrap .box .ctn01 .num::before {width: 20px; left: -20px;}
+    .sub-employ .job-area .box-wrap .box .ctn01::before {content: none;}
+
+    /* 채용정보new */
+    .sub-jobinfo {height: 87vh; margin-top: -69px; margin-bottom: -70px;}
+    .sub-jobinfo .list .title-area {width: 768px; margin-left: -384px; top: 90px;}
+    .sub-jobinfo .list .title-area .title {font-size: 18px;}
+    .sub-jobinfo .list01 .box {background-size: 65%; width: 100%; margin: 53px auto 0;}
+    .sub-jobinfo .slick-slide .box01 img {width: 155px;}
+    .sub-jobinfo .slick-slide .box02 img {width: 155px;}
+    .sub-jobinfo .list04 .box {width: 680px; margin: 50px auto 0;}
+    .sub-jobinfo .popup.talent {width: auto; transform: none; top:90px; left: 40px; right: 40px; bottom: 40px; margin-left: 0;}
+    .sub-jobinfo .popup.talent .ctn .box p {font-size: 16px;}
+    .sub-jobinfo .popup.talent .ctn .box .title {width: 150px; max-width: 100%;}
+    .sub-jobinfo .popup.talent01 .ctn .box {width: 33.333%;}
+    .sub-jobinfo .popup.talent01 .top-area .title {width: 135px; padding-left: 50px;}
+    .sub-jobinfo .popup.talent02 .ctn .box {width: 25%;}
+    .sub-jobinfo .popup.employ {width: auto; top:117px; left: 40px; right: 40px; bottom: 40px; margin-left: 0;}
+    .sub-jobinfo .popup.employ .ctn-area .title {font-size: 28px; padding-left: 40px;}
+    .sub-jobinfo .popup.employ .ctn-area .title::before {width: 28px; top: 28px;}
+    .sub-jobinfo .popup.employ .ctn-area .title::after {top: 28px;}
+    .sub-jobinfo .popup.employ .box-wrap .box {padding: 12px 0 12px 40px;}
+    .sub-jobinfo .popup.employ .box-wrap .box .ctn01 {padding: 30px 40px;}
+    .sub-jobinfo .popup.employ .box-wrap .box .ctn01 dt {font-size: 18px;}
+    .sub-jobinfo .popup.employ .box-wrap .box .ctn02 {padding-left: 0;}
+    .sub-jobinfo .popup.employ .box-wrap .box .ctn02 dl {font-size: 14px;}
+    .sub-jobinfo .popup.employ .box-wrap .box .ctn01 .num {font-size: 18px;}
+    .sub-jobinfo .popup.employ .box-wrap .box .ctn01 .num::before {width: 20px; left: -20px;}
+    .sub-jobinfo .popup.employ .box-wrap .box .ctn01::before {content: none;}
+    .sub-jobinfo .list03 .txt-box .title {font-size: 50px;}
+    .sub-jobinfo .list03 .txt-box ul {margin: 0 auto;}
+    .sub-jobinfo .list03 .txt-box ul li a {font-size: 14px;}
+    .sub-jobinfo .list04 .go {margin-left:0; left: inherit; right: 150px;}
+
+}
+
+@media(max-width: 768px) {
+    /* 회사소개_ceo인사말*/
+    .sub-ceo {padding: 15px !important; background: none;}
+    .sub-ceo .title-box {padding-left: 0;}
+    .sub-ceo .title-box .txt {font-size: 18px; padding-top: 56px; padding-right: 0; text-align: center;}
+    .sub-ceo .title-box .txt .quote {font-size: 40px;}
+    .sub-ceo .title-box .txt .quote01 {left: 50%;  margin-left: -8.3px;}
+    .sub-ceo .title-box .txt02 {text-align: center; font-size: 13px; word-break: keep-all; padding-right: 0;}
+    .sub-ceo .title-box .txt02 span {font-size: 16px;}
+    .sub-ceo .article {margin-top: 30px; padding-left: 0;}
+    .sub-ceo .article p {font-size: 14px;}
+    .sub-ceo .article p + p {margin-top: 15px;}
+    .sub-ceo .article .txt01 {font-size: 16px;}
+    .sub-ceo .article .txt02 {font-size: 13px;}
+    .sub-ceo .article .txt02 span {font-size: 17px;}
+
+    /* 회사소개_회사개요*/
+    .sub-intro .ctn01 .txt01 {font-size: 22px; line-height: 25px;}
+    .sub-intro .ctn01 .desc {padding: 0 15px;}
+    .sub-intro .ctn01 .txt02 {font-size: 16px; line-height: 25px;}
+    .sub-intro .ctn01 .txt02 span {display: inline;}
+    .sub-intro .ctn02 {margin-top: 20px; padding: 0 15px;}
+    .sub-intro .ctn02 .area1 {display: block;}
+    .sub-intro .ctn02 .area1 .box {padding: 20px 0;}
+    .sub-intro .ctn02 .area1 .gc {border-bottom: 1px solid #d6d6d6; background: url('../images/img/intro-img01.png') no-repeat 13px 87px; background-size: 91px;}
+    .sub-intro .ctn02 .area1 .ls {background: url('../images/img/intro-img02.png') no-repeat -27px 97px; background-size: 125px;}
+    .sub-intro .ctn02 .area1 .title {font-size: 20px;}
+    .sub-intro .ctn02 .area1 .count-box {padding-top: 30px;}
+    .sub-intro .ctn02 .area1 .counter {font-size: 30px;}
+    .sub-intro .ctn02 .area2 > ul {flex-wrap: wrap;}
+    .sub-intro .ctn02 .area2 > ul > li {width: 50%; flex: 1 1 auto;}
+    .sub-intro .ctn02 .area2 .title {font-size: 15px;}
+    .sub-intro .ctn02 .area2 .value {font-size: 13px;}
+    .sub-intro .ctn02 .area2 .value span {font-size: 25px;}
+    .sub-intro .ctn03 .bg {position: static; margin-left: 0 !important; margin-right: 0 !important; height: 130px;}
+    .sub-intro .ctn03 .txt-box {padding-top: 10px !important; padding-left: 15px !important; padding-right: 15px !important; padding-bottom: 20px !important;}
+    .sub-intro .ctn03 .box .bg .title {font-size: 16px; top: 20px !important;}
+    .sub-intro .ctn04 {margin-top: 30px;}
+    .sub-intro .ctn04 .inner {padding: 15px;}
+    .sub-intro .ctn04 .box {flex: none; width: 50%; background-size: 40px; background-position: center 25px; padding: 76px 20px 20px;}
+    .sub-intro .ctn04 .box:nth-child(2n-1) {border-left:0;}
+    .sub-intro .ctn04 .box:last-child {border-right: 0;}
+    .sub-intro .ctn04 .box:nth-child(1),
+    .sub-intro .ctn04 .box:nth-child(2) {border-bottom: 1px solid #d6d6d6;}
+    .sub-intro .ctn04 .box dl dt {font-size: 16px; margin-bottom: 5px;}
+    .sub-intro .ctn04 .box dl dd {font-size: 13px;}
+    .sub-intro .ctn04 .box dl + dl {margin-top: 12px;}
+    .sub-intro .ctn04 .box dl dd + dd {margin-top: 10px;}
+    .sub-intro .ctn04 .box02 dl dd {text-align: left;}
+
+    /* 회사소개_연혁*/
+    .sub-history .historyArea.page02,
+    .sub-history .historyArea.page03 {padding-bottom: 0;}
+    .sub-history .historyArea .h5 {font-size: 20px; text-align: left;}
+    .sub-history .historyArea .line {left: 22px;}
+    .sub-history .historyArea .bg-year {position: static; text-align: right; font-size: 45px; line-height: 1; margin-top: 20px;}
+    .sub-history .historyArea .bg-year span {font-size: 35px;}
+    .sub-history .history {display: block;}
+    .sub-history .history dl {width: 100%; padding-left: 40px; padding-top: 40px; margin-top: 0;}
+    .sub-history .history dl dt {font-size: 18px; margin-bottom: 15px;}
+    .sub-history .history dl dt::before {background-size: 70px;}
+    .sub-history .history .img {margin-top: 10px; text-align: left; width: 100%; padding: 0 0 0 40px;}
+    .sub-history .history .img img {width: 100%;}
+    .sub-history .history .img p {font-size: 13px;}
+    .sub-history .history.left dl {padding-right: 0; text-align: left;}
+    .sub-history .history.left dl dt::before,
+    .sub-history .history.right dl dt::before {
+        right: inherit; left: -35px; top: 6px;
+        background-image: url('../images/icon/icon-history-bullet04.png');
+        background-position: left center;
+        background-size: 80px;
+        width: 28px;
+    }
+    .sub-history .history.left dl dd {padding-right: 0; padding-left: 10px;}
+    .sub-history .history.left dl dd::after {content: none;}
+    .sub-history .history.left dl dd::before {content: '-'; position: absolute; top:0; left:0;}
+    .sub-history .history.right {display: flex; flex-direction: column-reverse;}
+    .sub-history .history.right .img {text-align: left; width: 100%; padding: 0 0 0 40px;}
+    .sub-history .history.active.left dl dt::before,
+    .sub-history .history.active.right dl dt::before {left: -38px; right: inherit; top: 6px; width: 28px; background-image: url('../images/icon/icon-history-bullet02.png'); background-position: left center;}
+
+    /* 회사소개_국내외 사업장*/
+    .sub-business .tab-area {margin-top: 50px;}
+    .sub-business .map-area {padding: 0 15px;}
+    .sub-business .map-area .map {display: none;}
+    .sub-business .map-area .map-m {display: block;}
+    .sub-business .business-area > ul {padding-top: 0; display: block;}
+    .sub-business .business-area .area-box {flex: none; width: 100%; margin-top: 30px;}
+    .sub-business .business-area .area-box:nth-child(2n) {padding-left: 0;}
+    .sub-business .business-area .area-box:nth-child(2n-1) {padding-right: 0;}
+    .sub-business .business-area .area-box .title {font-size: 18px;}
+    .sub-business .business-area .area-box .desc {padding: 20px 100px 20px 20px;}
+    .sub-business .business-area .area-box .desc p {font-size: 15px;}
+    .sub-business .business-area .area-box .desc .link {width: 40px; height: 40px; background-size: 15px;}
+    .sub-business .business-area .area-box .desc .link:hover {background-size: 15px;}
+    .sub-business .business-area .area-box .desc > ul {margin-top: 10px; display:block;}
+    .sub-business .area-box-wrap .wrap-title {margin-top: 30px;}
+    .sub-business .area-box.country .img-box p {font-size: 16px;}
+    .sub-business .business-area .area-box.country .desc {min-height: inherit;}
+
+    /* 회사소개_자회사/투자사*/
+    .sub-company .title-area .logo img {width: 150px;}
+    .sub-company .title-area .info {margin-top: 15px;}
+    .sub-company .title-area .info dt {font-size: 15px; flex: 1;}
+    .sub-company .title-area .info dd {flex: 5;}
+    .sub-company .ctn-area .ctn {display: block; margin-top: 20px;}
+    .sub-company .ctn-area .ctn img {width: 100%;}
+    .sub-company .ctn-area .ctn dl {padding-left: 0; margin-top: 20px;}
+    .sub-company .ctn-area .ctn dl dt {font-size: 16px;}
+
+    /* 회사소개_채용정보*/
+    .sub-employ .talent-area .desc .txt {font-size: 15px; padding: 0 30px;}
+    .sub-employ .talent-area .desc-wrap {padding: 0 15px; display: block;}
+    .sub-employ .talent-area .desc-wrap > li {padding: 0;}
+    .sub-employ .talent-area .desc-wrap > li + li {margin-top: 20px;}
+    .sub-employ .talent-area .article01 {padding: 30px 0 60px;}
+    .sub-employ .talent-area .article02 p {font-size: 20px; padding: 10px;}
+    .sub-employ .talent-area .article02 img {width: 215px;}
+    .sub-employ .talent-area .article03 {margin-top: 16px;}
+    .sub-employ .job-more {background-size: cover !important;}
+    .sub-employ .job-more a {font-size: 18px;}
+    .sub-employ .tab-type02 ul li a span {display: block; font-size: 12px;}
+
+    .sub-employ .job-area .info {flex-wrap: wrap; flex-direction: column-reverse; margin-bottom: 30px;}
+    .sub-employ .job-area .info .desc {flex: none; width: 100%; padding-right: 0;}
+    .sub-employ .job-area .info .desc .title {font-size: 18px; margin-bottom: 5px; margin-top: 20px;}
+    .sub-employ .job-area .info img {width: 100%;}
+    .sub-employ .job-area .ctn-area .title {font-size: 18px; padding-left: 0; font-weight: 400;}
+    .sub-employ .job-area .ctn-area .title::before,
+    .sub-employ .job-area .ctn-area .title::after {content: none;}
+    .sub-employ .job-area .box-wrap .box {padding: 20px 0; border-left: 0 !important; display: block;}
+    .sub-employ .job-area .box-wrap .box:last-child::before,
+    .sub-employ .job-area .box-wrap .box:first-child::before {content: none;}
+    .sub-employ .job-area .box-wrap .box .ctn01 {width: 100%; padding: 30px;}
+    .sub-employ .job-area .box-wrap .box .ctn01 .num {top: 0px; left: 50%; margin-left: -22.5px; font-size: 14px;}
+    .sub-employ .job-area .box-wrap .box .ctn01 .num::before {content: none;}
+    .sub-employ .job-area .box-wrap .box .ctn01 dt {font-size: 15px; margin-bottom: 5px;}
+    .sub-employ .job-area .box-wrap .box .ctn02 {width: 100%;}
+    .sub-employ .job-area .box-wrap .box .ctn02 dl {font-size: 13px; padding: 30px;}
+    .sub-employ .job-area .box-wrap .box .ctn02 dd {padding-left: 7px;}
+
+    /* 채용정보new */
+    .sub-jobinfo {height: 87vh; margin-top: -40px; margin-bottom: -40px;}
+    .sub-jobinfo .slide-btn a {width: 45px; height: 45px;}
+    .sub-jobinfo .slide-btn a.prev {left: 20px;}
+    .sub-jobinfo .slide-btn a.next {right: 20px;}
+    .sub-jobinfo .list .title-area {width: auto; margin-left: 0; top: 50px; left: 50px;}
+    .sub-jobinfo .list .title-area .title {font-size: 15px;}
+    .sub-jobinfo .list01 .box {background:url('../images/img/jobinfo-img01-m.png') no-repeat center 37px; background-size: 51%; height: 100%;}
+    /* .sub-jobinfo .list02 .box01 a {right: 20px;}
+    .sub-jobinfo .list02 .box02 a {left: 20px;} */
+    .sub-jobinfo .list02 .box01 {background-image: url('../images/img/jobinfo-img02.png'); background-color:#fcf4e8; background-position: 0 center; background-size: 259px;}
+    .sub-jobinfo .list02 .box02 {background-image: url('../images/img/jobinfo-img03.png'); background-color:#eff9e1; background-position: -21vw center; background-size: 293px;}
+    .sub-jobinfo .slick-slide .box01 img {width: 113px;}
+    .sub-jobinfo .slick-slide .box02 img {width: 113px;}
+    .sub-jobinfo .popup.talent {overflow: hidden; top: 20px; left: 20px; right: 20px; bottom: 20px;}
+    .sub-jobinfo .popup.talent .ctn {overflow: auto;}
+    .sub-jobinfo .popup.talent .top-area {height: 87px; background-position: 115px 20px; background-size: 72px;}
+    .sub-jobinfo .popup.talent .top-area .go {bottom: 10px;}
+    .sub-jobinfo .popup.talent .ctn {padding: 0 30px; display: block; position: absolute; top: 87px; left:0; right: 0; bottom: 0;}
+    .sub-jobinfo .popup.talent .ctn .box {width: 100%; margin: 40px 0;}
+    .sub-jobinfo .popup.talent .ctn .box p {font-size: 14px; height: auto; margin-bottom: 10px;}
+    .sub-jobinfo .popup.talent .top-area .title {width: 60px; margin-left: 30px;}
+    .sub-jobinfo .popup.talent01 .top-area img {width: 58px;}
+    .sub-jobinfo .popup.talent02 .top-area .title {width: 95px;}
+    .sub-jobinfo .popup.talent02 .go img {width: 40px;}
+    .sub-jobinfo .list03 .box {background-position: center -80px;}
+    .sub-jobinfo .list03 .txt-box {bottom: 135px;}
+    .sub-jobinfo .list03 .txt-box .title {font-size: 30px;}
+    .sub-jobinfo .list03 .txt-box ul {flex-wrap: wrap; width: 60px; min-height: 67px; padding: 0;}
+    .sub-jobinfo .list03 .txt-box ul li {width: 100%;}
+    .sub-jobinfo .list03 .txt-box ul li + li {border-left: 0; border-top: 1px solid #d6d6d6;}
+    .sub-jobinfo .list03 .txt-box ul li a {font-size: 11px; padding: 5px;}
+    .sub-jobinfo .list04 .box {background-image: url('../images/img/jobinfo-img11-m.png'); width: 100%; height: 100%; background-size: 56%; background-position: center 56px;}
+    .sub-jobinfo .list04 .go {left: 22vw; right: inherit; bottom: 14vh;}
+    .sub-jobinfo .popup.employ {left: 10px; right: 10px; bottom: 20px; width: auto; top: 55px;}
+    .sub-jobinfo .popup.employ .top-area {padding: 20px;}
+    .sub-jobinfo .popup.employ .top-area .title {font-size: 20px;}
+    .sub-jobinfo .popup.employ .ctn-area {top: 78px;}
+    .sub-jobinfo .popup.employ .ctn-area .title {font-size: 18px; padding-left: 0; font-weight: 400;}
+    .sub-jobinfo .popup.employ .ctn-area .title::before,
+    .sub-jobinfo .popup.employ .ctn-area .title::after {content: none;}
+    .sub-jobinfo .popup.employ .box-wrap .box {padding: 20px 0; border-left: 0 !important; display: block;}
+    .sub-jobinfo .popup.employ .box-wrap .box:last-child::before,
+    .sub-jobinfo .popup.employ .box-wrap .box:first-child::before {content: none;}
+    .sub-jobinfo .popup.employ .box-wrap .box .ctn01 {width: 100%; padding: 30px;}
+    .sub-jobinfo .popup.employ .box-wrap .box .ctn01 .num {top: 0px; left: 50%; margin-left: -22.5px; font-size: 14px;}
+    .sub-jobinfo .popup.employ .box-wrap .box .ctn01 .num::before {content: none;}
+    .sub-jobinfo .popup.employ .box-wrap .box .ctn01 dt {font-size: 15px; margin-bottom: 5px;}
+    .sub-jobinfo .popup.employ .box-wrap .box .ctn02 {width: 100%;}
+    .sub-jobinfo .popup.employ .box-wrap .box .ctn02 dl {font-size: 13px; padding: 30px;}
+    .sub-jobinfo .popup.employ .box-wrap .box .ctn02 dd {padding-left: 7px;}
+}
