@@ -22,18 +22,13 @@ h2,p{letter-spacing: -0.02em; word-break: keep-all;}
 #header .gc>a{padding-left: 35px;font-size: 19px; display: inline-block;}
 #header .gc>a:hover{color: #93bc3b;}
 #header .gc>a img{width: 23px; height: 23px;}
-#header .gc:hover .gc-menu{}
 #header .gc .gc-menu{display: none; background-color: white; border-top: 1px solid #93bc3b; width: 100%;}
-#header .gc .gc-menu .gc-depth1{}
-#header .gc .gc-menu .gc-depth2{}
 #header>h1{margin-left:10px;}
 #header>h1 img{width: 100%; display: block;}
 #header .ls>a{padding-left: 35px;font-size: 19px; display: inline-block;}
 #header .ls>a:hover{color: #ef8009;}
 #header .ls>a img{width: 23px; height: 23px;}
 #header .ls .ls-menu{display: none;}
-#header .ls .ls-menu .ls-depth1{}
-#header .ls .ls-menu .ls-depth2{}
 #header.smaller{background-color: white; height: 75px;}
 /* 우측메뉴버튼: */
 .menu-r{margin-right: 27px;}
@@ -52,12 +47,9 @@ h2,p{letter-spacing: -0.02em; word-break: keep-all;}
 .menu-r .gnb-pc .depth1 .depth2>li{padding: 5px 0;}
 .menu-r .gnb-pc .depth1 .depth2>li>a{font-size: 18px; font-weight: 300; color: #111;}
 .menu-r .gnb-pc .gnb-search{display: flex; justify-content: flex-end;}
-.menu-r .gnb-pc .gnb-search ul{}
-.menu-r .gnb-pc .gnb-search ul li{}
 .menu-r .gnb-pc .gnb-search ul li a{display: block; color: #828282; background: url('../img/icon-search02.png') no-repeat right; font-size: 26px; padding-right: 40px;}
 .menu-r .gnb-pc .gnb-search ul li.green{border-bottom: 3px solid #93bc3b;}
 .menu-r .gnb-pc .gnb-search ul li.green::after{content: ''; transform: rotate(45deg); border-right: 3px solid #93bc3b; height: 10px;}
-.menu-r .gnb-pc .gnb-search ul li.green a{}
 .menu-r .gnb-pc .gnb-search ul li.green a span{color: #98c93f; }
 .menu-r .gnb-pc .gnb-search ul li.orange{border-bottom: 3px solid #ef8009;}
 .menu-r .gnb-pc .gnb-search ul li.orange::after{content: ''; transform: rotate(45deg); width: 3px; height: 10px; border-right: 3px solid #ef8009;}
@@ -123,10 +115,7 @@ h2,p{letter-spacing: -0.02em; word-break: keep-all;}
 /* NEWS */
 .news{padding: 60px 0px; width: 100%; background: url('../img/main-news.jpg') no-repeat center center/cover;}
 .news .inner{width: 1200px; margin: 0 auto; display: flex; justify-content: center;}
-.news h2{}
 .news .board{width: 802px; margin: 0 auto;}
-.news .board ul{}
-.news .board ul li{}
 .news .board ul li a{position: relative; display: flex; border-top: 1px solid #d6d6d6; border-bottom: 1px solid #d6d6d6; align-items: center; text-align: center; font-size: 22px; color: #333; padding: 10px 250px 10px 140px;}
 .news .board ul li a:hover .title{text-decoration: underline;}
 .news .board ul li a .news-date{width: 140px; height: 160px; padding: 37px 0; }
@@ -137,7 +126,6 @@ h2,p{letter-spacing: -0.02em; word-break: keep-all;}
 .news .board ul li a .news-photo img{width: 100%}
 .news .board .more{text-align: right;}
 /* SHORTCUTS3: */
-.shortcuts3{}
 .shortcuts3 .inner{display: flex; justify-content: space-around; width: 1200px; margin: 0 auto; padding: 118px 0; box-sizing: border-box;}
 
 .shortcuts3 .s-box{text-align: center; width: 33.333%; position: relative;}
@@ -172,7 +160,6 @@ h2,p{letter-spacing: -0.02em; word-break: keep-all;}
 .box1 .find-us{margin-top: 83px; background: url('../img/footer-icon.png') no-repeat 95% center;}
 .box1 .find-us #address p{font-size: 16px; font-weight: 300;}
 .box2{width: 300px; }
-.box2 .business-ethnic{}
 .box2 .business-ethnic a.box2-bg{display: block; background: #302e2e url(../img/footer-bg01.png) no-repeat 34px 110px;  width: 100%; padding: 25px 26px; color: white;}
 .box2 .business-ethnic a p.title{font-size: 20px; text-align: center;}
 .box2 .business-ethnic a p.text{font-size: 15px; margin-top: 40px;
@@ -180,7 +167,6 @@ h2,p{letter-spacing: -0.02em; word-break: keep-all;}
 .box2 .business-ethnic a p.go{font-size: 13px; padding-left: 100px; margin-top: 13px; background: url('../img/icon-arrow-r-w.png') no-repeat 52% center/10px 9px; padding-right: 10px;}
 .box2 .family{width: 100%; background-color: #302e2e; margin-top: 2px; padding: 23px; display: flex;}
 .box2 .family .family-lists{width: 191px; height: 30px; overflow: hidden; background: #302e2e url('../img/icon-arrow-d-w.png') no-repeat bottom 10px right 9px/13px; font-size: 13px; padding: 4px 8px; transition: ease .2s; border: 1px solid white;}
-.box2 .family .family-lists:focus{}
 .box2 .family .family-lists ul li{height: 30px;}
 .box2 .family .family-lists ul li a{color: white; display: block;}
 .box2 .family>a.move{color: white; width: 58px; display: inline-block; background-color: #848484; border: 1px solid #848484;
@@ -211,13 +197,11 @@ font-size: 14px; padding: 3px; text-align: center;}
   .business .text-box{width: 638px;}
   .business .text-box a.title{width: 350px; font-size: 33px;}
   .business .text-box a.title span{font-size: 33px;}
-  .business .text-box a.more-btn1{}
   .business .text-box p.text{font-size: 20px; padding-bottom: 25px;}
   .business .text-box .hovered-box{font-size: 16px;}
   .news{padding: 0 0 30px;}
   .news .inner{width: 100%;}
   .news .board ul li a{padding: 10px 200px 10px 100px; height: 137px;}
-  .news .board img{}
   .news .board ul li a .news-date{width: 100px;}
   .news .board ul li a .news-date .news-month{font-size: 16px; font-weight: 600;}
   .news .board ul li a .news-date .news-day{font-size: 50px;}
@@ -232,7 +216,6 @@ font-size: 14px; padding: 3px; text-align: center;}
 } 
 @media screen and (max-width: 950px) {
   #footer .inner{display: block; padding: 30px 15px;}
-  #footer .box1{}
   #footer .box1 .menu ul.links li a{font-size: 13px; word-break: keep-all;}
   #footer .box2{width: 100%; margin-top: 25px;}
   #footer .box2 .business-ethnic a.box2-bg{background: #302e2e; padding: 18px; display: flex; align-items: center; justify-content: space-between;}
@@ -264,9 +247,6 @@ font-size: 14px; padding: 3px; text-align: center;}
   .global h2 span{font-size: 22px;}
   .global .diagram p{font-size: 16px; word-break: keep-all; letter-spacing: 0;}
   .global .diagram ul li{font-size: 14px;}
-  .global .diagram-l{}
-  .global .diagram-r{}
-  .global .diagram-r ul li{}
   .global p{font-size: 16px; word-break: keep-all; letter-spacing: 0;}
   .business .gc .bg{opacity: .6; width: 100%; height: 220px;}
   .business .gc .text-box{width: 100%; padding-right: 0; padding-top: 0;}
