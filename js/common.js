@@ -134,12 +134,14 @@ $(document).ready(function () {
     var myAOS = function () {
 
         AOS.init({
-            // easing: 'ease-out-back',
             once: true,
             duration: 1000
         });
     }
     myAOS();
+
+    
+
 
     //서브Lnb
     $("#ctn-body .lnb .depth .hand").click(function () {
@@ -186,82 +188,6 @@ $(document).ready(function () {
 
     });
 
-
-
-    //메인비쥬얼
-    $(".main-visual01 .main-slide").slick({
-        pauseOnFocus: false,
-        pauseOnHover: false,
-        autoHover: false,
-        autoControls: false,
-        controls: false,
-        arrows: false,
-        pager: false,
-        dots: false,
-        pause: 16000,
-        infinite: true,
-        speed: 1000,
-        fade: true,
-        autoplay: true,
-        autoplaySpeed: 10000,
-        cssEase: 'linear',
-        touchMove: false, // 손가락 터치시 이동 여부...
-        swipe: false, // swipe 여부...
-        draggable: false,
-        pauseOnHover: false
-    });
-
-    // $(".main-visual02 .main-slide").slick({
-    //     pauseOnFocus: false,
-    //     pauseOnHover: false,
-    //     autoHover: false,
-    //     autoControls: false,
-    //     controls: false,
-    //     arrows: false,
-    //     // pager: false,
-    //     dots: false,
-    //     pause: 16000,
-    //     infinite: true,
-    //     speed: 1000,
-    //     fade: true,
-    //     autoplay: true,
-    //     autoplaySpeed: 10000,
-    //     cssEase: 'linear',
-    //     touchMove : false, // 손가락 터치시 이동 여부...
-    //     swipe : false, // swipe 여부...
-    //     draggable : false,
-    //     pauseOnHover: false
-    // });
-
-    var $status = $('.page-number');
-    var $slickElement = $('.main-visual .main-slide');
-
-    $slickElement.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
-        var i = (currentSlide ? currentSlide : 0) + 1;
-        $status.text(i + '/' + slick.slideCount);
-    });
-    $slickElement.slick({
-        pauseOnFocus: false,
-        pauseOnHover: false,
-        autoHover: false,
-        autoControls: false,
-        controls: false,
-        arrows: false,
-        pager: false,
-        dots: false,
-        //dots: true,
-        pause: 16000,
-        infinite: true,
-        speed: 1000,
-        fade: true,
-        autoplay: true,
-        autoplaySpeed: 10000,
-        cssEase: 'linear',
-        touchMove: false, // 손가락 터치시 이동 여부...
-        swipe: false, // swipe 여부...
-        draggable: false,
-        pauseOnHover: false
-    });
 
     $('.main-visual .slide-option .btn.pause').on('click', function () {
         $('.main-visual .main-slide').slick('slickPause');
