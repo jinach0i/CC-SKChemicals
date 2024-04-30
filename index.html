@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <title>SK Chemicals</title>
@@ -38,7 +38,7 @@
     <link rel="icon" type="image/png" sizes="96x96" href="./img/favicon/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
     <link rel="manifest" href="./img/favicon/manifest.json">
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="./js/index.js" defer></script>
 </head>
@@ -190,8 +190,8 @@
                         </ul>
                         <div class="gnb-search">
                             <ul>
-                                <li class="green"><a href="#"><span>Green Chemicals</span>제품검색</a></a></li>
-                                <li class="orange"><a href="#"><span>Life Science</span>제품검색</a></a></li>
+                                <li class="green"><input type="search"><span>Green Chemicals</span>제품검색</a></li>
+                                <li class="orange"><input type="search"><span>Life Science</span>제품검색</a></a></li>
                             </ul>
                         </div>
                     </div>
@@ -301,8 +301,8 @@
             </div>
         </section>
         <main id="main">
-            <div class="main-slide">
-                <div class="title" data-aos="fade-up" data-aos-duration="6000">
+            <div class="main-slide" id="mainSlideCont" data-aos="fade-up" >
+                <div class="title" data-aos-duration="6000">
                         <p class="text1">We care for the future.</p>
                 </div>
                 <div class="title" data-aos="fade-up" data-aos-duration="3000">
@@ -313,14 +313,20 @@
                 </div>
                 <div class="scroll-down"><p>Scroll Down</p></div>
             </div>
-            <div class="vision" data-aos="fade-up">
+            <div class="visions main-pad1" data-aos="fade-up">
                 <h2>Vision</h2>
-                <p class="text1">친환경 소재와 Total Healthcare Solution을 제공하는</p>
-                <p class="text2">Global Leading Company</p>
-                <p class="text3">Global leading solution provider in eco-friendly material and total healthcare</p>
-                <a href="https://www.skchemicals.com/about/vision.aspx" title="미션과 비전 사이트로 이동" class="more-btn">더보기</a>
+                <div data-aos="fade-up">
+                    <p class="text1">친환경 소재와 Total Healthcare Solution을 제공하는</p>
+                </div>
+                <div data-aos="fade-up">
+                    <p class="text2">Global Leading Company</p>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="800">
+                    <p class="text3">Global leading solution provider in eco-friendly material and total healthcare</p>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1500"><a href="https://www.skchemicals.com/about/vision.aspx" title="미션과 비전 사이트로 이동" class="more-btn">더보기</a></div>
             </div>
-            <div class="global" data-aos="fade-up">
+            <div class="global main-pad1" data-aos="fade-up">
                 <h2>Total Solution Provider <span>SK chemicals</span></h2>
                 <div class="diagram">
                     <div class="diagram-l">
@@ -343,16 +349,15 @@
                 </div>
                 <p>친환경 소재와 Healthcare의 Total Solution제공·Global 경쟁우위확보</p>
             </div>
-            <div class="business">
-                <h2 class="h2 aos-init aos-animate" data-aos="fade-up">Our business</h2>
-                <div class="gc">
-                    <div class="bg aos-init aos-animate"></div>
+            <div class="business main-pad1">
+                <h2 data-aos="fade-up">Our business</h2>
+                <div class="gc" id="gcBox" data-aos="fade-right" data-aos-delay="100">
                     <div class="text-box">
-                        <a href="./sub/gc.html" title="Green Chemicals로 이동" class="title">
-                            <span>Green Chemicals<br>Business</span>
-                        </a>
-                        <a href="./sub/gc.html" title="Green Chemicals로 이동" class="more-btn1">더보기</a>
-                        <p class="text">친환경 소재 Solution Provider</p>
+                            <a href="./sub/gc.html" title="Green Chemicals로 이동" class="title">
+                                <span>Green Chemicals<br>Business</span>
+                            </a>
+                            <a href="./sub/gc.html" title="Green Chemicals로 이동" class="more-btn">더보기</a>
+                            <p class="text">친환경 소재 Solution Provider</p>
                         <div class="hovered-box">
                             <p>
                             <span>SK케미칼은 Bisphenol 유도체(BPA 등) 성분이 포함되지 않은</span>
@@ -364,26 +369,23 @@
                             <span>기반 플라스틱 등 지구의 환경을 보호할 수 있는 </span>
                             <span>친환경 소재 개발을 통해 Global Leading Company로 도약하고 있습니다. </span>                                   
                             </p>
-                            <a href="./sub/gc.html" title="Green Chemicals로 이동" class="more-btn">더보기</a>
                         </div>
                     </div>
                 </div>
-                <div class="ls">
-                    <div class="bg aos-init aos-animate"></div>
+                <div class="ls" data-aos="fade-left">
                     <div class="text-box">
-                        <a href="./sub/ls.html" title="Life Science로 이동" class="title">
-                            <span>Life Science<br>Business</span>
-                        </a>
-                        <a href="./sub/ls.html" title="Life Science로 이동" class="more-btn1">더보기</a>
-                        <p class="text">Total Healthcare Solution Provider</p>
+                            <a href="./sub/ls.html" title="Life Science로 이동" class="title">
+                                <span>Life Science<br>Business</span>
+                            </a>
+                            <a href="./sub/ls.html" title="Life Science로 이동" class="more-btn">더보기</a>
+                            <p class="text">Total Healthcare Solution Provider</p>
                         <div class="hovered-box">
                             <p>SK케미칼 Life Science Business은 <span>합성 신약, 천연물, 바이오 등</span>  <span>다양한 영역에서 지속적으로 성과를 내고 있으며,</span> 인류의 건강의 가치를 실현하며 <span>국민 건강 증진에 앞장 서고 있습니다.</span></p>
-                            <a href="./sub/ls.html" title="Life Science로 이동" class="more-btn">더보기</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="news" data-aos="fade-up">
+            <div class="news main-pad1" data-aos="fade-up">
                 <h2 class="h2">SK chemicals News</h2>
                 <div class="inner">
                     <div class="board">
